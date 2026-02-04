@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Vessel gradients -->
+    <linearGradient id="arterialGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#DC3545"/>
+      <stop offset="100%" style="stop-color:#B02A37"/>
+    </linearGradient>
+    <linearGradient id="venousGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4169E1"/>
+      <stop offset="100%" style="stop-color:#3251B8"/>
+    </linearGradient>
+
+    <!-- Zone fills (low opacity for overlay) -->
+    <linearGradient id="zone1Fill" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#DEB887;stop-opacity:0.25"/>
+      <stop offset="100%" style="stop-color:#CD853F;stop-opacity:0.15"/>
+    </linearGradient>
+    <linearGradient id="zone2Fill" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#228B22;stop-opacity:0.2"/>
+      <stop offset="100%" style="stop-color:#32CD32;stop-opacity:0.1"/>
+    </linearGradient>
+    <linearGradient id="zone3Fill" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#DC143C;stop-opacity:0.25"/>
+      <stop offset="100%" style="stop-color:#FF6B6B;stop-opacity:0.15"/>
+    </linearGradient>
+
+    <!-- Glow filter -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Triangle pattern -->
+    <pattern id="dangerPattern" width="10" height="10" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="10" stroke="#FF0000" stroke-width="2" stroke-opacity="0.3"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="600" fill="#1a1a2e"/>
+
+  <!-- Base Anatomy Layer -->
+  <g id="layer-base" data-layer="base">
+    <!-- Abdominal wall tissue background -->
+    <ellipse cx="400" cy="300" rx="340" ry="250" fill="#2D2D44" opacity="0.4"/>
+
+    <!-- Iliopsoas Muscle -->
+    <path id="iliopsoas-main"
+          data-landmark-id="iliopsoas_muscle"
+          class="landmark-path"
+          d="M 570 330 Q 610 380 630 480 Q 610 540 570 550 Q 530 530 510 470 Q 520 390 570 330"
+          fill="#CD853F"
+          stroke="#8B4513"
+          stroke-width="2"
+          opacity="0.7"/>
+
+    <!-- Pubic Symphysis -->
+    <ellipse id="pubis-main"
+             data-landmark-id="pubic_symphysis"
+             class="landmark-path"
+             cx="170" cy="510" rx="35" ry="22"
+             fill="#E8E8E8"
+             stroke="#B0B0B0"
+             stroke-width="2"/>
+
+    <!-- Cooper's Ligament -->
+    <path id="coopers-main"
+          data-landmark-id="coopers_ligament"
+          class="landmark-path"
+          d="M 190 470 Q 270 480 350 475 Q 380 475 400 470"
+          fill="none"
+          stroke="#DEB887"
+          stroke-width="7"
+          stroke-linecap="round"/>
+
+    <!-- Bladder -->
+    <path id="bladder-main"
+          data-landmark-id="bladder"
+          class="landmark-path"
+          d="M 130 410 Q 90 440 100 490 Q 120 520 170 530 Q 190 520 200 490 Q 200 440 170 410 Q 150 400 130 410"
+          fill="#FFD700"
+          opacity="0.35"
+          stroke="#DAA520"
+          stroke-width="2"/>
+  </g>
+
+  <!-- Zone Overlays (optional layer) -->
+  <g id="layer-zones" data-layer="zones" opacity="0.6">
+    <!-- Zone 1: Lateral -->
+    <path d="M 450 190 Q 540 210 610 270 Q 670 350 690 470 Q 670 530 610 550 Q 540 550 470 510 Q 430 450 410 370 Q 420 270 450 190"
+          fill="url(#zone1Fill)" stroke="#DEB887" stroke-width="1" stroke-dasharray="5,5"/>
+
+    <!-- Zone 2: Medial -->
+    <path d="M 90 270 Q 140 230 240 210 Q 310 200 340 230 Q 350 310 330 410 Q 290 490 210 530 Q 130 540 90 490 Q 70 410 90 270"
+          fill="url(#zone2Fill)" stroke="#228B22" stroke-width="1" stroke-dasharray="5,5"/>
+
+    <!-- Zone 3: Central -->
+    <path d="M 340 230 Q 390 190 450 190 Q 420 270 410 370 Q 430 450 470 510 Q 410 530 330 510 Q 290 490 330 410 Q 350 310 340 230"
+          fill="url(#zone3Fill)" stroke="#DC143C" stroke-width="1" stroke-dasharray="5,5"/>
+  </g>
+
+  <!-- Triangle overlays (subtle) -->
+  <g id="layer-triangles" data-layer="triangles" opacity="0.4">
+    <!-- Triangle of Doom -->
+    <path d="M 370 305 L 270 420 L 520 390 Z"
+          fill="url(#dangerPattern)"
+          stroke="#8B0000"
+          stroke-width="2"
+          stroke-dasharray="4,2"/>
+  </g>
+
+  <!-- Vessels Layer -->
+  <g id="layer-vessels" data-layer="vessels">
+    <!-- External Iliac Artery -->
+    <path id="eia-main"
+          data-landmark-id="external_iliac_artery"
+          class="landmark-path"
+          d="M 470 370 Q 490 410 500 460 Q 505 490 510 530"
+          fill="none"
+          stroke="url(#arterialGradient)"
+          stroke-width="11"
+          stroke-linecap="round"/>
+
+    <!-- External Iliac Vein -->
+    <path id="eiv-main"
+          data-landmark-id="external_iliac_vein"
+          class="landmark-path"
+          d="M 430 380 Q 440 420 445 470 Q 450 510 455 550"
+          fill="none"
+          stroke="url(#venousGradient)"
+          stroke-width="13"
+          stroke-linecap="round"/>
+
+    <!-- Inferior Epigastric Vessels -->
+    <path id="iev-main"
+          data-landmark-id="inferior_epigastric_vessels"
+          class="landmark-path"
+          d="M 345 305 Q 335 240 325 170 Q 320 130 315 90"
+          fill="none"
+          stroke="#DC3545"
+          stroke-width="9"
+          stroke-linecap="round"/>
+
+    <!-- Spermatic Vessels -->
+    <path id="spermatic-main"
+          data-landmark-id="spermatic_vessels"
+          class="landmark-path"
+          d="M 410 315 Q 470 340 510 370 Q 550 395 585 420"
+          fill="none"
+          stroke="#4169E1"
+          stroke-width="7"
+          stroke-linecap="round"/>
+  </g>
+
+  <!-- Cord Structures Layer -->
+  <g id="layer-cord" data-layer="cord">
+    <!-- Vas Deferens -->
+    <path id="vas-main"
+          data-landmark-id="vas_deferens"
+          class="landmark-path"
+          d="M 355 315 Q 315 350 275 390 Q 235 430 195 470"
+          fill="none"
+          stroke="#F5F5DC"
+          stroke-width="5"
+          stroke-linecap="round"/>
+  </g>
+
+  <!-- Deep Ring -->
+  <g id="layer-ring" data-layer="ring">
+    <ellipse id="deep-ring-outline"
+             cx="380" cy="315" rx="45" ry="32"
+             fill="none"
+             stroke="#FF6B6B"
+             stroke-width="2"
+             stroke-dasharray="6,3"/>
+    <ellipse id="deep-ring-main"
+             data-landmark-id="deep_inguinal_ring"
+             class="landmark-path"
+             cx="380" cy="315" rx="40" ry="28"
+             fill="rgba(255, 107, 107, 0.15)"/>
+  </g>
+
+  <!-- Femoral Canal -->
+  <g id="layer-femoral" data-layer="femoral">
+    <ellipse id="femoral-canal-main"
+             data-landmark-id="femoral_canal"
+             class="landmark-path"
+             cx="395" cy="500" rx="32" ry="22"
+             fill="rgba(152, 251, 152, 0.25)"
+             stroke="#98FB98"
+             stroke-width="2"
+             stroke-dasharray="4,2"/>
+  </g>
+
+  <!-- Iliopubic Tract -->
+  <g id="layer-iliopubic" data-layer="iliopubic-tract">
+    <path id="ipt-main"
+          data-landmark-id="iliopubic_tract"
+          class="landmark-path"
+          d="M 140 440 Q 290 450 440 445 Q 540 440 640 430"
+          fill="none"
+          stroke="#191970"
+          stroke-width="4"
+          stroke-dasharray="10,5"
+          stroke-linecap="round"/>
+  </g>
+
+  <!-- Labels Layer -->
+  <g id="layer-labels" data-layer="labels" font-family="Arial, sans-serif" font-size="11" fill="white">
+    <!-- Main structure labels -->
+    <text x="305" y="85" font-weight="bold" fill="#DC3545" font-size="12">IEV</text>
+
+    <text x="170" y="485" font-weight="bold" fill="#F5F5DC" font-size="11">Vas</text>
+
+    <text x="590" y="415" font-weight="bold" fill="#4169E1" font-size="11">Spermatic V.</text>
+
+    <text x="515" y="545" font-weight="bold" fill="#DC3545" font-size="10">Iliac A.</text>
+
+    <text x="395" y="565" font-weight="bold" fill="#4169E1" font-size="10">Iliac V.</text>
+
+    <text x="640" y="490" font-weight="bold" fill="#CD853F" font-size="10">Iliopsoas</text>
+
+    <text x="380" y="290" text-anchor="middle" font-weight="bold" fill="#FF6B6B" font-size="10">Deep Ring</text>
+
+    <text x="550" y="430" font-size="9" fill="#191970">Iliopubic Tract</text>
+
+    <text x="115" y="530" font-weight="bold" fill="#E8E8E8" font-size="10">Pubis</text>
+
+    <text x="260" y="465" font-weight="bold" fill="#DEB887" font-size="10">Cooper's</text>
+
+    <text x="390" y="530" font-size="10" fill="#98FB98">Femoral Canal</text>
+
+    <!-- Zone indicators (small) -->
+    <g opacity="0.8">
+      <text x="580" y="380" font-size="10" fill="#DEB887">Zone 1</text>
+      <text x="190" y="340" font-size="10" fill="#32CD32">Zone 2</text>
+      <text x="395" y="350" font-size="10" fill="#FF6B6B">Zone 3</text>
+    </g>
+  </g>
+
+  <!-- Title -->
+  <g id="layer-title">
+    <text x="400" y="35" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold" fill="#FFD700">
+      CRITICAL VIEW OF THE MYOPECTINEAL ORIFICE
+    </text>
+    <text x="400" y="55" text-anchor="middle" font-family="Arial" font-size="12" fill="#888">
+      Complete anatomical view with all key structures
+    </text>
+  </g>
+
+  <!-- Legend -->
+  <g id="layer-legend" transform="translate(620, 80)">
+    <rect x="0" y="0" width="160" height="200" rx="8" fill="rgba(0,0,0,0.7)" stroke="#444"/>
+    <text x="80" y="22" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="white">STRUCTURES</text>
+
+    <line x1="15" y1="40" x2="35" y2="40" stroke="#DC3545" stroke-width="4"/>
+    <text x="45" y="44" font-family="Arial" font-size="10" fill="#DC3545">IEV / Iliac A.</text>
+
+    <line x1="15" y1="60" x2="35" y2="60" stroke="#4169E1" stroke-width="4"/>
+    <text x="45" y="64" font-family="Arial" font-size="10" fill="#4169E1">Iliac V. / Sperm.</text>
+
+    <line x1="15" y1="80" x2="35" y2="80" stroke="#F5F5DC" stroke-width="3"/>
+    <text x="45" y="84" font-family="Arial" font-size="10" fill="#F5F5DC">Vas Deferens</text>
+
+    <line x1="15" y1="100" x2="35" y2="100" stroke="#191970" stroke-width="3" stroke-dasharray="4,2"/>
+    <text x="45" y="104" font-family="Arial" font-size="10" fill="#6B6BAF">Iliopubic Tract</text>
+
+    <rect x="15" y="115" width="20" height="12" fill="#CD853F" opacity="0.7" rx="2"/>
+    <text x="45" y="125" font-family="Arial" font-size="10" fill="#CD853F">Iliopsoas</text>
+
+    <circle cx="25" cy="145" r="8" fill="rgba(255,107,107,0.3)" stroke="#FF6B6B" stroke-width="1"/>
+    <text x="45" y="149" font-family="Arial" font-size="10" fill="#FF6B6B">Deep Ring</text>
+
+    <circle cx="25" cy="170" r="8" fill="rgba(152,251,152,0.3)" stroke="#98FB98" stroke-width="1"/>
+    <text x="45" y="174" font-family="Arial" font-size="10" fill="#98FB98">Femoral Canal</text>
+  </g>
+
+  <!-- Touch Hotspots -->
+  <g id="layer-hotspots" data-layer="hotspots" opacity="0">
+    <circle cx="325" cy="170" r="35" data-target="inferior_epigastric_vessels"/>
+    <circle cx="275" cy="410" r="35" data-target="vas_deferens"/>
+    <circle cx="510" cy="370" r="40" data-target="spermatic_vessels"/>
+    <circle cx="380" cy="315" r="45" data-target="deep_inguinal_ring"/>
+    <circle cx="450" cy="470" r="35" data-target="external_iliac_vein"/>
+    <circle cx="500" cy="460" r="35" data-target="external_iliac_artery"/>
+    <circle cx="570" cy="470" r="45" data-target="iliopsoas_muscle"/>
+    <circle cx="440" cy="440" r="30" data-target="iliopubic_tract"/>
+    <circle cx="170" cy="510" r="30" data-target="pubic_symphysis"/>
+    <circle cx="295" cy="475" r="30" data-target="coopers_ligament"/>
+    <circle cx="395" cy="500" r="30" data-target="femoral_canal"/>
+    <circle cx="150" cy="470" r="35" data-target="bladder"/>
+  </g>
+</svg>
