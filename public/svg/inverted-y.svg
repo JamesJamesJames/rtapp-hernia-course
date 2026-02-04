@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradients for vessels -->
+    <linearGradient id="arterialGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#DC3545;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#B02A37;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="venousGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4169E1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3251B8;stop-opacity:1" />
+    </linearGradient>
+
+    <!-- Glow filter for selection -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Highlight filter -->
+    <filter id="highlight">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="600" fill="#1a1a2e"/>
+
+  <!-- Base Anatomy Layer -->
+  <g id="layer-base" data-layer="base">
+    <!-- Abdominal wall (background tissue) -->
+    <ellipse cx="400" cy="280" rx="350" ry="250" fill="#2D2D44" opacity="0.5"/>
+
+    <!-- Iliopsoas Muscle -->
+    <path id="iliopsoas-main"
+          data-landmark-id="iliopsoas_muscle"
+          class="landmark-path"
+          d="M 580 350 Q 620 400 640 500 Q 620 550 580 560 Q 540 540 520 480 Q 530 400 580 350"
+          fill="#CD853F"
+          stroke="#8B4513"
+          stroke-width="2"
+          opacity="0.8"/>
+
+    <!-- Rectus Muscle (medial) -->
+    <path id="rectus-main"
+          d="M 120 150 Q 150 200 160 350 Q 150 450 140 550 L 200 550 Q 210 450 200 350 Q 190 200 180 150 Z"
+          fill="#8B4513"
+          opacity="0.4"/>
+
+    <!-- Cooper's Ligament -->
+    <path id="coopers-main"
+          data-landmark-id="coopers_ligament"
+          class="landmark-path"
+          d="M 200 480 Q 280 490 360 485 Q 380 485 400 480"
+          fill="none"
+          stroke="#DEB887"
+          stroke-width="8"
+          stroke-linecap="round"/>
+
+    <!-- Pubic Symphysis -->
+    <ellipse id="pubis-main"
+             data-landmark-id="pubic_symphysis"
+             class="landmark-path"
+             cx="180" cy="520" rx="40" ry="25"
+             fill="#E8E8E8"
+             stroke="#B0B0B0"
+             stroke-width="2"/>
+
+    <!-- Bladder (partial view) -->
+    <path id="bladder-main"
+          data-landmark-id="bladder"
+          class="landmark-path"
+          d="M 140 420 Q 100 450 110 500 Q 130 530 180 540 Q 200 530 210 500 Q 210 450 180 420 Q 160 410 140 420"
+          fill="#FFD700"
+          opacity="0.4"
+          stroke="#DAA520"
+          stroke-width="2"/>
+  </g>
+
+  <!-- Vessels Layer -->
+  <g id="layer-vessels" data-layer="vessels">
+    <!-- External Iliac Artery -->
+    <path id="eia-main"
+          data-landmark-id="external_iliac_artery"
+          class="landmark-path"
+          d="M 480 380 Q 500 420 510 470 Q 515 500 520 540"
+          fill="none"
+          stroke="url(#arterialGradient)"
+          stroke-width="12"
+          stroke-linecap="round"/>
+
+    <!-- External Iliac Vein -->
+    <path id="eiv-main"
+          data-landmark-id="external_iliac_vein"
+          class="landmark-path"
+          d="M 440 390 Q 450 430 455 480 Q 460 520 465 560"
+          fill="none"
+          stroke="url(#venousGradient)"
+          stroke-width="14"
+          stroke-linecap="round"/>
+
+    <!-- Inferior Epigastric Vessels (Superior arm of Y) -->
+    <path id="iev-main"
+          data-landmark-id="inferior_epigastric_vessels"
+          class="landmark-path"
+          d="M 350 320 Q 340 250 330 180 Q 325 140 320 100"
+          fill="none"
+          stroke="#DC3545"
+          stroke-width="10"
+          stroke-linecap="round"/>
+    <path id="iev-branches"
+          d="M 330 180 Q 310 160 290 140 M 330 180 Q 350 160 370 140"
+          fill="none"
+          stroke="#DC3545"
+          stroke-width="4"
+          stroke-linecap="round"/>
+
+    <!-- Spermatic Vessels (Lateral arm of Y) -->
+    <path id="spermatic-main"
+          data-landmark-id="spermatic_vessels"
+          class="landmark-path"
+          d="M 420 330 Q 480 350 520 380 Q 560 400 590 430"
+          fill="none"
+          stroke="#4169E1"
+          stroke-width="8"
+          stroke-linecap="round"/>
+    <path id="spermatic-plexus"
+          d="M 520 380 Q 540 395 555 405 M 520 380 Q 530 400 540 420"
+          fill="none"
+          stroke="#6495ED"
+          stroke-width="4"
+          stroke-linecap="round"/>
+  </g>
+
+  <!-- Cord Structures Layer -->
+  <g id="layer-cord" data-layer="cord">
+    <!-- Vas Deferens (Medial arm of Y) -->
+    <path id="vas-main"
+          data-landmark-id="vas_deferens"
+          class="landmark-path"
+          d="M 360 330 Q 320 360 280 400 Q 240 440 200 480"
+          fill="none"
+          stroke="#F5F5DC"
+          stroke-width="6"
+          stroke-linecap="round"/>
+  </g>
+
+  <!-- Deep Ring -->
+  <g id="layer-ring" data-layer="ring">
+    <!-- Deep Inguinal Ring -->
+    <ellipse id="deep-ring-outline"
+             cx="385" cy="330" rx="50" ry="35"
+             fill="none"
+             stroke="#FF6B6B"
+             stroke-width="3"
+             stroke-dasharray="8,4"/>
+    <ellipse id="deep-ring-main"
+             data-landmark-id="deep_inguinal_ring"
+             class="landmark-path"
+             cx="385" cy="330" rx="45" ry="30"
+             fill="rgba(255, 107, 107, 0.2)"
+             stroke="none"/>
+  </g>
+
+  <!-- Femoral Canal -->
+  <g id="layer-femoral" data-layer="femoral">
+    <ellipse id="femoral-canal-main"
+             data-landmark-id="femoral_canal"
+             class="landmark-path"
+             cx="400" cy="510" rx="35" ry="25"
+             fill="rgba(152, 251, 152, 0.3)"
+             stroke="#98FB98"
+             stroke-width="2"
+             stroke-dasharray="5,3"/>
+  </g>
+
+  <!-- Iliopubic Tract Layer -->
+  <g id="layer-iliopubic" data-layer="iliopubic-tract">
+    <path id="ipt-main"
+          data-landmark-id="iliopubic_tract"
+          class="landmark-path"
+          d="M 150 450 Q 300 460 450 455 Q 550 450 650 440"
+          fill="none"
+          stroke="#191970"
+          stroke-width="4"
+          stroke-dasharray="12,6"
+          stroke-linecap="round"/>
+  </g>
+
+  <!-- Labels Layer -->
+  <g id="layer-labels" data-layer="labels" font-family="Arial, sans-serif" font-size="14" fill="white">
+    <text x="310" y="90" font-weight="bold" fill="#DC3545">Inferior Epigastric</text>
+    <text x="330" y="105" fill="#DC3545">Vessels</text>
+
+    <text x="160" y="490" font-weight="bold" fill="#F5F5DC">Vas Deferens</text>
+
+    <text x="595" y="420" font-weight="bold" fill="#4169E1">Spermatic</text>
+    <text x="600" y="435" fill="#4169E1">Vessels</text>
+
+    <text x="520" y="555" font-weight="bold" fill="#DC3545">External Iliac</text>
+    <text x="535" y="570" fill="#DC3545">Artery</text>
+
+    <text x="380" y="575" font-weight="bold" fill="#4169E1">External Iliac</text>
+    <text x="400" y="590" fill="#4169E1">Vein</text>
+
+    <text x="650" y="505" font-weight="bold" fill="#CD853F">Iliopsoas</text>
+    <text x="660" y="520" fill="#CD853F">Muscle</text>
+
+    <text x="385" y="300" text-anchor="middle" font-weight="bold" fill="#FF6B6B">Deep Ring</text>
+
+    <text x="100" y="450" font-weight="bold" fill="#191970">Iliopubic Tract</text>
+
+    <text x="120" y="540" font-weight="bold" fill="#E8E8E8">Pubis</text>
+
+    <text x="250" y="475" font-weight="bold" fill="#DEB887">Cooper's</text>
+    <text x="255" y="490" fill="#DEB887">Ligament</text>
+
+    <text x="380" y="540" font-weight="bold" fill="#98FB98">Femoral</text>
+    <text x="385" y="555" fill="#98FB98">Canal</text>
+  </g>
+
+  <!-- Inverted Y Annotation -->
+  <g id="layer-annotations" data-layer="annotations" opacity="0.8">
+    <text x="400" y="40" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold" fill="#FFD700">
+      THE INVERTED Y
+    </text>
+    <text x="400" y="60" text-anchor="middle" font-family="Arial" font-size="12" fill="#CCC">
+      Fundamental landmark for posterior groin anatomy
+    </text>
+  </g>
+
+  <!-- Touch Hotspots (invisible, larger click targets for mobile) -->
+  <g id="layer-hotspots" data-layer="hotspots" opacity="0">
+    <circle cx="330" cy="180" r="40" data-target="inferior_epigastric_vessels"/>
+    <circle cx="280" cy="420" r="40" data-target="vas_deferens"/>
+    <circle cx="520" cy="380" r="40" data-target="spermatic_vessels"/>
+    <circle cx="385" cy="330" r="50" data-target="deep_inguinal_ring"/>
+    <circle cx="460" cy="480" r="40" data-target="external_iliac_vein"/>
+    <circle cx="510" cy="470" r="40" data-target="external_iliac_artery"/>
+    <circle cx="580" cy="480" r="50" data-target="iliopsoas_muscle"/>
+    <circle cx="400" cy="455" r="30" data-target="iliopubic_tract"/>
+    <circle cx="180" cy="520" r="35" data-target="pubic_symphysis"/>
+    <circle cx="300" cy="485" r="35" data-target="coopers_ligament"/>
+    <circle cx="400" cy="510" r="35" data-target="femoral_canal"/>
+    <circle cx="160" cy="480" r="40" data-target="bladder"/>
+  </g>
+</svg>
