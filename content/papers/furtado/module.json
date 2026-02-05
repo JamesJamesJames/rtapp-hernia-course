@@ -1,0 +1,187 @@
+{
+  "slug": "furtado",
+  "summary": {
+    "title": "Paper in 3 Minutes",
+    "keyPoints": [
+      "The posterior groin is best understood through the inverted-Y landmark formed by the vas deferens and spermatic vessels",
+      "Three anatomical zones help organize dissection: lateral (Zone 1), medial (Zone 2), and central high-risk (Zone 3)",
+      "The inferior epigastric vessels serve as the primary landmark dividing direct from indirect hernia spaces",
+      "Key danger regions include the Triangle of Doom (iliac vessels) and Triangle of Pain (lateral nerves)",
+      "Consistent landmark identification reduces risk of vascular and nerve injury during laparoscopic repair"
+    ],
+    "clinicalPearl": "Always identify the inferior epigastric vessels first - they are your anatomical compass for the entire dissection."
+  },
+  "figures": [
+    {
+      "id": "furtado_fig01",
+      "filename": "furtado_fig01.jpg",
+      "caption": "Posterior view of the myopectineal orifice showing the inverted-Y configuration",
+      "description": "The vas deferens and spermatic vessels form an inverted-Y shape that serves as the central organizing landmark",
+      "annotations": []
+    },
+    {
+      "id": "furtado_fig02",
+      "filename": "furtado_fig02.jpg",
+      "caption": "Three-zone anatomical division of the posterior inguinal region",
+      "description": "Zone 1 (lateral), Zone 2 (medial), and Zone 3 (central) with their respective safety profiles",
+      "annotations": []
+    },
+    {
+      "id": "furtado_fig03",
+      "filename": "furtado_fig03.jpg",
+      "caption": "Inferior epigastric vessels as the primary anatomical landmark",
+      "description": "The IEV divides the direct and indirect hernia spaces and guides mesh placement",
+      "annotations": []
+    }
+  ],
+  "activities": [
+    {
+      "type": "ImageLabelingDrill",
+      "id": "furtado-labeling-01",
+      "title": "Identify the Inverted-Y",
+      "instruction": "Click on the structures that form the inverted-Y landmark",
+      "figureId": "furtado_fig01",
+      "targetStructures": ["vas-deferens", "spermatic-vessels"]
+    },
+    {
+      "type": "PlaneSelectionInteraction",
+      "id": "furtado-plane-01",
+      "title": "Zone Identification",
+      "instruction": "Select the correct zone for each anatomical region",
+      "questions": [
+        {
+          "prompt": "Where are the lateral femoral cutaneous nerve at greatest risk?",
+          "options": ["Zone 1 (Lateral)", "Zone 2 (Medial)", "Zone 3 (Central)"],
+          "correctIndex": 0,
+          "explanation": "Zone 1 contains the LFCN, making it a region requiring careful dissection"
+        },
+        {
+          "prompt": "Which zone is safest for mesh fixation?",
+          "options": ["Zone 1 (Lateral)", "Zone 2 (Medial)", "Zone 3 (Central)"],
+          "correctIndex": 1,
+          "explanation": "Zone 2 (medial to the IEV, above Cooper's ligament) is the safest for fixation"
+        },
+        {
+          "prompt": "Which zone contains the Triangle of Doom?",
+          "options": ["Zone 1 (Lateral)", "Zone 2 (Medial)", "Zone 3 (Central)"],
+          "correctIndex": 2,
+          "explanation": "Zone 3 (central) contains both the Triangle of Doom and Triangle of Pain"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "fc-furtado-01",
+      "front": "What structure forms the 'stem' of the inverted-Y?",
+      "back": "The vas deferens (medial limb) and spermatic vessels (lateral limb) converge at the deep inguinal ring to form the inverted-Y configuration.",
+      "image": null
+    },
+    {
+      "id": "fc-furtado-02",
+      "front": "What are the boundaries of Zone 1 (Lateral zone)?",
+      "back": "Zone 1 is lateral to the spermatic vessels. It contains the lateral femoral cutaneous nerve and requires careful dissection.",
+      "image": null
+    },
+    {
+      "id": "fc-furtado-03",
+      "front": "What landmark divides direct from indirect hernia defects?",
+      "back": "The inferior epigastric vessels (IEV). Direct hernias are medial to the IEV; indirect hernias are lateral.",
+      "image": null
+    },
+    {
+      "id": "fc-furtado-04",
+      "front": "What structures are at risk in the Triangle of Doom?",
+      "back": "The external iliac artery and vein. This triangle is bounded by the vas deferens medially and spermatic vessels laterally.",
+      "image": null
+    },
+    {
+      "id": "fc-furtado-05",
+      "front": "What is contained within the Triangle of Pain?",
+      "back": "The lateral femoral cutaneous nerve and femoral branch of the genitofemoral nerve. Injury causes chronic groin pain.",
+      "image": null
+    }
+  ],
+  "quiz": {
+    "title": "Quick Check: Spatial Orientation",
+    "passingScore": 80,
+    "questions": [
+      {
+        "id": "q-furtado-01",
+        "question": "Which vessels form the primary anatomical landmark that divides hernia types?",
+        "options": [
+          "External iliac vessels",
+          "Inferior epigastric vessels",
+          "Spermatic vessels",
+          "Femoral vessels"
+        ],
+        "correctIndex": 1,
+        "explanation": "The inferior epigastric vessels divide direct (medial) from indirect (lateral) hernias and serve as the primary navigation landmark."
+      },
+      {
+        "id": "q-furtado-02",
+        "question": "The inverted-Y is formed by which two structures?",
+        "options": [
+          "IEV and iliopubic tract",
+          "Vas deferens and spermatic vessels",
+          "Cooper's ligament and inguinal ligament",
+          "Femoral canal and deep ring"
+        ],
+        "correctIndex": 1,
+        "explanation": "The vas deferens (medial limb) and spermatic vessels (lateral limb) converge at the deep ring to form the characteristic inverted-Y."
+      },
+      {
+        "id": "q-furtado-03",
+        "question": "Which zone is considered safest for mesh fixation?",
+        "options": [
+          "Zone 1 - Lateral",
+          "Zone 2 - Medial",
+          "Zone 3 - Central",
+          "All zones equally safe"
+        ],
+        "correctIndex": 1,
+        "explanation": "Zone 2 (medial, above Cooper's ligament) is the safest fixation zone as it avoids the major vessels and nerves."
+      },
+      {
+        "id": "q-furtado-04",
+        "question": "What structures are at risk within the Triangle of Doom?",
+        "options": [
+          "Lateral femoral cutaneous nerve",
+          "External iliac artery and vein",
+          "Femoral nerve",
+          "Obturator vessels"
+        ],
+        "correctIndex": 1,
+        "explanation": "The Triangle of Doom contains the external iliac vessels. Injury here can cause life-threatening hemorrhage."
+      },
+      {
+        "id": "q-furtado-05",
+        "question": "Zone 1 (lateral zone) puts which nerve at greatest risk?",
+        "options": [
+          "Femoral nerve",
+          "Obturator nerve",
+          "Lateral femoral cutaneous nerve",
+          "Ilioinguinal nerve"
+        ],
+        "correctIndex": 2,
+        "explanation": "The lateral femoral cutaneous nerve runs through Zone 1 and is at risk during lateral dissection."
+      }
+    ]
+  },
+  "wrapup": {
+    "takeaways": [
+      "The inverted-Y (vas + spermatic vessels) is your central organizing landmark",
+      "Three zones help stratify risk: lateral (nerves), medial (safe), central (vessels)",
+      "Always identify IEV first to orient yourself and classify the hernia type"
+    ],
+    "pitfalls": [
+      "Failing to identify IEV before beginning dissection",
+      "Dissecting into Zone 3 without recognizing the Triangle of Doom boundaries",
+      "Placing fixation devices in Zone 1 or Zone 3"
+    ],
+    "nextPaper": {
+      "slug": "yang",
+      "teaser": "Now that you have spatial orientation, learn how to work with the fascial planes during dissection."
+    }
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "slug": "daes-felix",
+  "summary": {
+    "title": "Paper in 3 Minutes",
+    "keyPoints": [
+      "The Critical View of the Myopectineal Orifice (CV-MPO) is a standardized safety endpoint",
+      "Before mesh placement, all four quadrants of the MPO must be clearly visualized",
+      "The CV-MPO is a binary check: it is either achieved or not achieved",
+      "This concept parallels the Critical View of Safety in cholecystectomy",
+      "Achieving CV-MPO prevents mesh malposition and reduces recurrence"
+    ],
+    "clinicalPearl": "The CV-MPO is pass/fail - if you cannot see all four quadrants clearly, you are not ready for mesh placement."
+  },
+  "figures": [
+    {
+      "id": "daes-felix_fig01",
+      "filename": "daes-felix_fig01.jpg",
+      "caption": "The four quadrants of the myopectineal orifice",
+      "description": "Diagram showing medial/lateral and superior/inferior divisions creating four zones that must all be visualized",
+      "annotations": []
+    },
+    {
+      "id": "daes-felix_fig02",
+      "filename": "daes-felix_fig02.jpg",
+      "caption": "Critical View of the MPO achieved",
+      "description": "Intraoperative photograph demonstrating complete visualization of all MPO quadrants",
+      "annotations": []
+    }
+  ],
+  "activities": [
+    {
+      "type": "BinaryCheckInteraction",
+      "id": "daes-felix-binary-01",
+      "title": "CV-MPO Achieved?",
+      "instruction": "Examine each image and determine if Critical View has been achieved",
+      "cases": [
+        {
+          "imageId": "daes-felix_fig02",
+          "description": "All landmarks visible, cord parietalized, clear visualization of all quadrants",
+          "correctAnswer": true,
+          "explanation": "This image demonstrates complete CV-MPO: all four quadrants are visible with clear landmark identification."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "fc-daes-01",
+      "front": "What are the four quadrants of the myopectineal orifice?",
+      "back": "Superior-medial (direct space), Superior-lateral (indirect space), Inferior-medial (vascular area), Inferior-lateral (femoral space). All must be visualized for CV-MPO.",
+      "image": null
+    },
+    {
+      "id": "fc-daes-02",
+      "front": "What is the CV-MPO concept analogous to?",
+      "back": "The Critical View of Safety (CVS) in laparoscopic cholecystectomy - a standardized endpoint that must be achieved before the critical step.",
+      "image": null
+    },
+    {
+      "id": "fc-daes-03",
+      "front": "When is the CV-MPO considered achieved?",
+      "back": "When all four quadrants are clearly visualized, the cord is parietalized, and key landmarks (IEV, vas, spermatic vessels, Cooper's) are identified.",
+      "image": null
+    },
+    {
+      "id": "fc-daes-04",
+      "front": "What should you do if CV-MPO is not achieved?",
+      "back": "Continue dissection until all quadrants are visualized. Do NOT place mesh until CV-MPO is confirmed.",
+      "image": null
+    }
+  ],
+  "quiz": {
+    "title": "Quick Check: Critical View",
+    "passingScore": 80,
+    "questions": [
+      {
+        "id": "q-daes-01",
+        "question": "The CV-MPO requires visualization of how many quadrants?",
+        "options": ["Two", "Three", "Four", "Six"],
+        "correctIndex": 2,
+        "explanation": "All four quadrants of the myopectineal orifice must be visualized."
+      },
+      {
+        "id": "q-daes-02",
+        "question": "The CV-MPO is what type of safety check?",
+        "options": [
+          "Graded scale",
+          "Binary (pass/fail)",
+          "Subjective assessment",
+          "Optional verification"
+        ],
+        "correctIndex": 1,
+        "explanation": "CV-MPO is binary - it is either achieved or not achieved."
+      },
+      {
+        "id": "q-daes-03",
+        "question": "What is the CV-MPO analogous to in cholecystectomy?",
+        "options": [
+          "Calot's triangle dissection",
+          "Critical View of Safety",
+          "Fundus-first approach",
+          "Intraoperative cholangiogram"
+        ],
+        "correctIndex": 1,
+        "explanation": "CV-MPO parallels the Critical View of Safety concept from cholecystectomy."
+      },
+      {
+        "id": "q-daes-04",
+        "question": "If only 3 of 4 quadrants are visible, you should:",
+        "options": [
+          "Proceed with mesh placement",
+          "Document the finding and continue",
+          "Continue dissection until all 4 are visible",
+          "Convert to open surgery"
+        ],
+        "correctIndex": 2,
+        "explanation": "All four quadrants must be visible. Continue dissection until CV-MPO is achieved."
+      },
+      {
+        "id": "q-daes-05",
+        "question": "The primary purpose of CV-MPO is to:",
+        "options": [
+          "Speed up the operation",
+          "Standardize the safety endpoint before mesh placement",
+          "Document for medical records",
+          "Satisfy training requirements"
+        ],
+        "correctIndex": 1,
+        "explanation": "CV-MPO standardizes when it is safe to proceed with mesh placement."
+      }
+    ]
+  },
+  "wrapup": {
+    "takeaways": [
+      "CV-MPO is a binary safety check: achieved or not achieved",
+      "All four quadrants must be visualized before mesh placement",
+      "This standardized endpoint reduces mesh malposition and recurrence"
+    ],
+    "pitfalls": [
+      "Placing mesh before achieving complete CV-MPO",
+      "Treating CV-MPO as optional or subjective",
+      "Failing to photograph/document the Critical View"
+    ],
+    "nextPaper": {
+      "slug": "claus",
+      "teaser": "Now memorize the 10 Golden Rules that operationalize safe rTAPP technique."
+    }
+  }
+}

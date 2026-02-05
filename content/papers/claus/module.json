@@ -1,0 +1,202 @@
+{
+  "slug": "claus",
+  "summary": {
+    "title": "Paper in 3 Minutes",
+    "keyPoints": [
+      "Ten actionable rules provide a systematic approach to safe rTAPP surgery",
+      "Rules are organized by surgical phase: entry, dissection, mesh placement, fixation, closure",
+      "Each rule addresses a specific failure mode or danger point",
+      "Mnemonic-based learning facilitates recall during surgery",
+      "Adherence to all 10 rules significantly reduces complications"
+    ],
+    "clinicalPearl": "These rules are not guidelines - they are binary requirements. Violating any single rule puts the patient at risk."
+  },
+  "figures": [
+    {
+      "id": "claus_fig01",
+      "filename": "claus_fig01.jpg",
+      "caption": "The 10 Golden Rules illustrated",
+      "description": "Visual summary of all 10 rules with corresponding anatomical landmarks",
+      "annotations": []
+    },
+    {
+      "id": "claus_fig02",
+      "filename": "claus_fig02.jpg",
+      "caption": "Common failure modes addressed by the Golden Rules",
+      "description": "Each rule prevents a specific complication pathway",
+      "annotations": []
+    }
+  ],
+  "activities": [
+    {
+      "type": "RuleRecallInteraction",
+      "id": "claus-recall-01",
+      "title": "Rule Recall Challenge",
+      "instruction": "Match each surgical scenario to the Golden Rule it violates",
+      "matchItems": [
+        {
+          "scenario": "Mesh fixation placed below the iliopubic tract laterally",
+          "ruleNumber": 7,
+          "ruleName": "No fixation in danger zones",
+          "explanation": "Fixation below the iliopubic tract risks nerve entrapment in the Triangle of Pain"
+        },
+        {
+          "scenario": "Beginning medial dissection before identifying the IEV",
+          "ruleNumber": 1,
+          "ruleName": "Identify IEV first",
+          "explanation": "The IEV is the primary orientation landmark and must be identified before any dissection"
+        },
+        {
+          "scenario": "Proceeding with mesh when only 3 quadrants are visible",
+          "ruleNumber": 5,
+          "ruleName": "Achieve CV-MPO before mesh",
+          "explanation": "All four quadrants must be visualized before mesh placement"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "fc-claus-01",
+      "front": "Rule 1: What landmark must be identified first?",
+      "back": "The inferior epigastric vessels (IEV). They are your anatomical compass for the entire procedure.",
+      "image": null
+    },
+    {
+      "id": "fc-claus-02",
+      "front": "Rule 2: What must be done before any peritoneal incision?",
+      "back": "Identify the boundaries of your dissection and ensure you are in the correct plane.",
+      "image": null
+    },
+    {
+      "id": "fc-claus-03",
+      "front": "Rule 3: Where should you NOT dissect blindly?",
+      "back": "Into the Triangle of Doom or Triangle of Pain. Never dissect into areas where you cannot clearly identify structures.",
+      "image": null
+    },
+    {
+      "id": "fc-claus-04",
+      "front": "Rule 4: What defines adequate parietalization?",
+      "back": "Complete separation of vas deferens and spermatic vessels from peritoneum with visualization of the inverted-Y.",
+      "image": null
+    },
+    {
+      "id": "fc-claus-05",
+      "front": "Rule 5: What must be achieved before placing mesh?",
+      "back": "The Critical View of the Myopectineal Orifice (CV-MPO) - all four quadrants visualized.",
+      "image": null
+    },
+    {
+      "id": "fc-claus-06",
+      "front": "Rule 6: What are the minimum mesh overlap requirements?",
+      "back": "Adequate coverage of all potential hernia sites with appropriate overlap beyond defect margins.",
+      "image": null
+    },
+    {
+      "id": "fc-claus-07",
+      "front": "Rule 7: Where must you avoid fixation?",
+      "back": "Below the iliopubic tract laterally (Triangle of Pain) and in the Triangle of Doom. Only Zone 2 is safe for fixation.",
+      "image": null
+    },
+    {
+      "id": "fc-claus-08",
+      "front": "Rule 8: How should peritoneum be closed?",
+      "back": "Complete closure to prevent mesh contact with bowel and reduce risk of adhesive small bowel obstruction.",
+      "image": null
+    },
+    {
+      "id": "fc-claus-09",
+      "front": "Rule 9: What must be documented?",
+      "back": "Photographs of the CV-MPO achieved, mesh position, and peritoneal closure for quality assurance.",
+      "image": null
+    },
+    {
+      "id": "fc-claus-10",
+      "front": "Rule 10: When should you convert to open?",
+      "back": "When landmarks cannot be identified, planes are not developing, or patient safety requires it.",
+      "image": null
+    }
+  ],
+  "quiz": {
+    "title": "Quick Check: 10 Golden Rules",
+    "passingScore": 80,
+    "questions": [
+      {
+        "id": "q-claus-01",
+        "question": "Which landmark must be identified before starting any dissection?",
+        "options": [
+          "Cooper's ligament",
+          "Inferior epigastric vessels",
+          "Deep inguinal ring",
+          "Pubic symphysis"
+        ],
+        "correctIndex": 1,
+        "explanation": "Rule 1: IEV must be identified first as the primary orientation landmark."
+      },
+      {
+        "id": "q-claus-02",
+        "question": "What must be achieved before mesh placement?",
+        "options": [
+          "Patient consent",
+          "Critical View of MPO",
+          "Complete hemostasis",
+          "Hernia sac resection"
+        ],
+        "correctIndex": 1,
+        "explanation": "Rule 5: CV-MPO must be achieved before placing mesh."
+      },
+      {
+        "id": "q-claus-03",
+        "question": "Which zone is safe for mesh fixation?",
+        "options": [
+          "Zone 1 only",
+          "Zone 2 only",
+          "Zone 3 only",
+          "All zones equally"
+        ],
+        "correctIndex": 1,
+        "explanation": "Rule 7: Only Zone 2 (medial, above Cooper's) is safe for fixation."
+      },
+      {
+        "id": "q-claus-04",
+        "question": "What is the purpose of Rule 10?",
+        "options": [
+          "Speedier surgery",
+          "Safe conversion criteria",
+          "Documentation requirements",
+          "Mesh selection"
+        ],
+        "correctIndex": 1,
+        "explanation": "Rule 10 establishes when conversion to open surgery is appropriate for safety."
+      },
+      {
+        "id": "q-claus-05",
+        "question": "Why must peritoneum be closed completely (Rule 8)?",
+        "options": [
+          "Better cosmesis",
+          "Prevent mesh-bowel contact",
+          "Reduce operative time",
+          "Insurance requirements"
+        ],
+        "correctIndex": 1,
+        "explanation": "Complete peritoneal closure prevents mesh contact with bowel and adhesive SBO."
+      }
+    ]
+  },
+  "wrapup": {
+    "takeaways": [
+      "The 10 Golden Rules are binary requirements, not optional guidelines",
+      "Each rule prevents a specific complication or failure mode",
+      "Know all 10 rules by heart before operating independently"
+    ],
+    "pitfalls": [
+      "Treating the rules as guidelines rather than requirements",
+      "Skipping rules under time pressure",
+      "Not documenting adherence to each rule"
+    ],
+    "nextPaper": {
+      "slug": "ramser",
+      "teaser": "See how these concepts come together in a step-by-step video guide to the procedure."
+    }
+  }
+}
