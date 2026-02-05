@@ -1,0 +1,168 @@
+{
+  "slug": "yasukawa",
+  "summary": {
+    "title": "Paper in 3 Minutes",
+    "keyPoints": [
+      "Anatomical landmarks directly inform intraoperative decisions at each step",
+      "The iliopubic tract defines the inferior boundary of safe dissection",
+      "Parietalization of the cord requires systematic landmark identification",
+      "Decision algorithms based on landmark visibility improve safety",
+      "Each anatomical structure has a specific 'action implication' during surgery"
+    ],
+    "clinicalPearl": "If you can't identify the structure, don't proceed. Uncertainty demands pause and re-evaluation."
+  },
+  "figures": [
+    {
+      "id": "yasukawa_fig01",
+      "filename": "yasukawa_fig01.jpg",
+      "caption": "Landmark-to-action decision map",
+      "description": "Flow chart showing how identification of each landmark leads to specific surgical decisions",
+      "annotations": []
+    },
+    {
+      "id": "yasukawa_fig02",
+      "filename": "yasukawa_fig02.jpg",
+      "caption": "The iliopubic tract as a safety boundary",
+      "description": "The iliopubic tract marks the inferior limit of safe dissection in the lateral region",
+      "annotations": []
+    }
+  ],
+  "activities": [
+    {
+      "type": "DecisionScenarioInteraction",
+      "id": "yasukawa-decision-01",
+      "title": "Landmark-Based Decisions",
+      "instruction": "Given the scenario, select the appropriate surgical action",
+      "scenarios": [
+        {
+          "situation": "You have identified the inferior epigastric vessels and the vas deferens, but cannot clearly see the spermatic vessels.",
+          "options": [
+            "Proceed with medial dissection only",
+            "Continue lateral dissection to find them",
+            "Pause and reassess the plane of dissection"
+          ],
+          "correctIndex": 2,
+          "explanation": "When key landmarks are not visible, pause and reassess. The spermatic vessels define critical boundaries."
+        },
+        {
+          "situation": "During lateral dissection, you encounter a firm white band running transversely.",
+          "options": [
+            "Divide it to improve visualization",
+            "Recognize it as the iliopubic tract - do not dissect below",
+            "It is likely adhesion - continue through it"
+          ],
+          "correctIndex": 1,
+          "explanation": "The iliopubic tract is a key landmark marking the inferior boundary of safe dissection laterally."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "fc-yasukawa-01",
+      "front": "What is the surgical action implication of identifying the iliopubic tract?",
+      "back": "Stop inferior dissection at this level laterally. The iliopubic tract marks the inferior boundary of safe mesh placement and dissection in Zone 1.",
+      "image": null
+    },
+    {
+      "id": "fc-yasukawa-02",
+      "front": "What should you do if you cannot identify an expected landmark?",
+      "back": "Pause, reassess your plane and orientation, and consider that you may be in the wrong tissue layer or working in an atypical anatomy.",
+      "image": null
+    },
+    {
+      "id": "fc-yasukawa-03",
+      "front": "What landmarks confirm adequate parietalization of the cord?",
+      "back": "Clear separation of the vas deferens and spermatic vessels from the peritoneum, with visualization of the inverted-Y configuration.",
+      "image": null
+    },
+    {
+      "id": "fc-yasukawa-04",
+      "front": "How does identifying Cooper's ligament inform your action?",
+      "back": "Cooper's ligament is a safe fixation point for mesh. Identifying it confirms adequate medial dissection.",
+      "image": null
+    }
+  ],
+  "quiz": {
+    "title": "Quick Check: Anatomy to Action",
+    "passingScore": 80,
+    "questions": [
+      {
+        "id": "q-yasukawa-01",
+        "question": "The iliopubic tract indicates you should:",
+        "options": [
+          "Continue dissection inferiorly",
+          "Stop inferior dissection at this level",
+          "Place mesh fixation here",
+          "Divide it for better access"
+        ],
+        "correctIndex": 1,
+        "explanation": "The iliopubic tract marks the inferior boundary of safe dissection in the lateral region."
+      },
+      {
+        "id": "q-yasukawa-02",
+        "question": "If you cannot identify an expected landmark during surgery, you should:",
+        "options": [
+          "Proceed with the operation",
+          "Assume it is absent",
+          "Pause and reassess orientation",
+          "Convert to open surgery"
+        ],
+        "correctIndex": 2,
+        "explanation": "Uncertainty requires pause and reassessment - never proceed without landmark confirmation."
+      },
+      {
+        "id": "q-yasukawa-03",
+        "question": "Parietalization is confirmed when you can see:",
+        "options": [
+          "The hernia sac only",
+          "The inverted-Y with separated cord structures",
+          "The peritoneum intact",
+          "Bleeding from the cord"
+        ],
+        "correctIndex": 1,
+        "explanation": "Adequate parietalization shows clear separation of vas and vessels from peritoneum."
+      },
+      {
+        "id": "q-yasukawa-04",
+        "question": "Cooper's ligament identification allows you to:",
+        "options": [
+          "Divide the structure",
+          "Use it as a safe fixation point",
+          "Ignore it during dissection",
+          "Mark the hernia boundary"
+        ],
+        "correctIndex": 1,
+        "explanation": "Cooper's ligament is an excellent anchor point for mesh fixation in Zone 2."
+      },
+      {
+        "id": "q-yasukawa-05",
+        "question": "What is the 'action implication' principle in landmark-based surgery?",
+        "options": [
+          "All landmarks require the same action",
+          "Each landmark informs a specific surgical decision",
+          "Landmarks are for documentation only",
+          "Actions are independent of anatomy"
+        ],
+        "correctIndex": 1,
+        "explanation": "Each anatomical structure has a specific action implication that guides the next surgical step."
+      }
+    ]
+  },
+  "wrapup": {
+    "takeaways": [
+      "Every landmark has an 'action implication' - know them",
+      "The iliopubic tract is your inferior safety boundary laterally",
+      "Uncertainty = pause. Never proceed without landmark confirmation"
+    ],
+    "pitfalls": [
+      "Proceeding when landmarks are not clearly identified",
+      "Dissecting inferior to the iliopubic tract",
+      "Failing to parietalize the cord adequately"
+    ],
+    "nextPaper": {
+      "slug": "daes-felix",
+      "teaser": "Now learn to confirm your dissection is complete with the Critical View concept."
+    }
+  }
+}

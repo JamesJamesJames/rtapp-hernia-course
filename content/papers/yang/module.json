@@ -1,0 +1,160 @@
+{
+  "slug": "yang",
+  "summary": {
+    "title": "Paper in 3 Minutes",
+    "keyPoints": [
+      "The posterior inguinal region consists of multiple fascial layers that define safe dissection planes",
+      "The transversalis fascia and its subdivisions guide peritoneal dissection",
+      "Understanding fascial attachments prevents inadvertent entry into dangerous spaces",
+      "The preperitoneal space has distinct sub-compartments with different tissue characteristics",
+      "Correct plane identification reduces bleeding and improves mesh position"
+    ],
+    "clinicalPearl": "Stay in the areolar tissue plane - if you encounter resistance or bleeding, you are likely in the wrong layer."
+  },
+  "figures": [
+    {
+      "id": "yang_fig01",
+      "filename": "yang_fig01.jpg",
+      "caption": "Fascial layers of the posterior inguinal region",
+      "description": "Cross-sectional view showing the relationship between peritoneum, transversalis fascia, and preperitoneal fat",
+      "annotations": []
+    },
+    {
+      "id": "yang_fig02",
+      "filename": "yang_fig02.jpg",
+      "caption": "Safe dissection planes for rTAPP repair",
+      "description": "The areolar tissue plane between the transversalis fascia and peritoneum provides bloodless dissection",
+      "annotations": []
+    }
+  ],
+  "activities": [
+    {
+      "type": "PlaneSelectionInteraction",
+      "id": "yang-plane-01",
+      "title": "Identify the Correct Plane",
+      "instruction": "Select which tissue layer the surgeon should be dissecting in",
+      "questions": [
+        {
+          "prompt": "When developing the preperitoneal space, which plane allows bloodless dissection?",
+          "options": ["Between peritoneum and fat", "Within the transversalis fascia", "Areolar tissue plane"],
+          "correctIndex": 2,
+          "explanation": "The areolar tissue plane provides a relatively bloodless plane for dissection"
+        },
+        {
+          "prompt": "Encountering significant bleeding during preperitoneal dissection suggests:",
+          "options": ["Normal anatomy", "Wrong fascial plane", "Successful dissection"],
+          "correctIndex": 1,
+          "explanation": "Bleeding usually indicates dissection in the wrong plane - the correct areolar plane is relatively avascular"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "fc-yang-01",
+      "front": "What are the key fascial layers in the posterior inguinal region (superficial to deep)?",
+      "back": "Transversalis fascia, preperitoneal fat and areolar tissue, then peritoneum. The areolar tissue plane is the target for dissection.",
+      "image": null
+    },
+    {
+      "id": "fc-yang-02",
+      "front": "What indicates you are in the correct dissection plane?",
+      "back": "Easy tissue separation with minimal bleeding. The areolar tissue plane is relatively avascular and tissues separate easily.",
+      "image": null
+    },
+    {
+      "id": "fc-yang-03",
+      "front": "What happens if you dissect too deep (posterior)?",
+      "back": "You may enter the peritoneal cavity, risking bowel injury and loss of pneumoperitoneum.",
+      "image": null
+    },
+    {
+      "id": "fc-yang-04",
+      "front": "What happens if you dissect too superficial (anterior)?",
+      "back": "You remain in the transversalis fascia, encountering bleeding and difficulty with mesh placement.",
+      "image": null
+    }
+  ],
+  "quiz": {
+    "title": "Quick Check: Planes & Fascia",
+    "passingScore": 80,
+    "questions": [
+      {
+        "id": "q-yang-01",
+        "question": "Which plane is ideal for preperitoneal dissection in rTAPP?",
+        "options": [
+          "Within the transversalis fascia",
+          "The areolar tissue plane",
+          "Between muscle layers",
+          "Subperitoneal space"
+        ],
+        "correctIndex": 1,
+        "explanation": "The areolar tissue plane between transversalis fascia and peritoneum allows bloodless dissection."
+      },
+      {
+        "id": "q-yang-02",
+        "question": "What is the most common sign of dissecting in the wrong plane?",
+        "options": [
+          "Easy tissue separation",
+          "Unexpected bleeding",
+          "Clear visualization",
+          "Rapid progress"
+        ],
+        "correctIndex": 1,
+        "explanation": "Bleeding typically indicates dissection in the wrong fascial plane."
+      },
+      {
+        "id": "q-yang-03",
+        "question": "What is the consequence of dissecting too posteriorly?",
+        "options": [
+          "Bleeding from muscle",
+          "Entry into peritoneal cavity",
+          "Nerve injury",
+          "Loss of landmarks"
+        ],
+        "correctIndex": 1,
+        "explanation": "Dissecting too deep leads to peritoneal entry, risking bowel injury."
+      },
+      {
+        "id": "q-yang-04",
+        "question": "The transversalis fascia is located:",
+        "options": [
+          "Deep to the peritoneum",
+          "Superficial to the preperitoneal fat",
+          "Within the muscle layer",
+          "Adjacent to skin"
+        ],
+        "correctIndex": 1,
+        "explanation": "The transversalis fascia lies superficial to the preperitoneal fat and areolar tissue."
+      },
+      {
+        "id": "q-yang-05",
+        "question": "Which tissue characteristic indicates the correct dissection plane?",
+        "options": [
+          "Dense white tissue",
+          "Active bleeding",
+          "Wispy areolar tissue",
+          "Muscle fibers visible"
+        ],
+        "correctIndex": 2,
+        "explanation": "Wispy areolar tissue that separates easily indicates the correct avascular plane."
+      }
+    ]
+  },
+  "wrapup": {
+    "takeaways": [
+      "The areolar tissue plane is your target - it's relatively bloodless",
+      "Bleeding = wrong plane. Stop and reassess layer position",
+      "Know the layers: transversalis fascia, areolar tissue, peritoneum"
+    ],
+    "pitfalls": [
+      "Dissecting too superficially within the transversalis fascia (causes bleeding)",
+      "Dissecting too deep and entering the peritoneal cavity",
+      "Losing the plane around the cord structures"
+    ],
+    "nextPaper": {
+      "slug": "yasukawa",
+      "teaser": "With spatial orientation and plane knowledge, learn how to translate anatomy into real-time decisions."
+    }
+  }
+}

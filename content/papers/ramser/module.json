@@ -1,0 +1,214 @@
+{
+  "slug": "ramser",
+  "summary": {
+    "title": "Paper in 3 Minutes",
+    "keyPoints": [
+      "The rTAPP procedure follows a reproducible sequence of steps",
+      "Video-based learning shows dynamic anatomy as it unfolds during surgery",
+      "Each procedural step builds on proper execution of the previous step",
+      "Tissue handling and plane development are demonstrated in motion",
+      "Understanding the sequence prevents disorientation during the case"
+    ],
+    "clinicalPearl": "Surgical anatomy is dynamic. Structures move and change appearance with dissection - video captures this in a way static images cannot."
+  },
+  "figures": [
+    {
+      "id": "ramser_fig01",
+      "filename": "ramser_fig01.jpg",
+      "caption": "Step 1: Initial peritoneal incision and entry into preperitoneal space",
+      "description": "The lateral-to-medial peritoneal incision begins the development of the preperitoneal flap",
+      "annotations": []
+    },
+    {
+      "id": "ramser_fig02",
+      "filename": "ramser_fig02.jpg",
+      "caption": "Step 2: Identification of the inverted-Y landmarks",
+      "description": "Progressive dissection reveals the vas deferens and spermatic vessels",
+      "annotations": []
+    },
+    {
+      "id": "ramser_fig03",
+      "filename": "ramser_fig03.jpg",
+      "caption": "Step 3: Parietalization of the cord",
+      "description": "Separation of cord structures from the peritoneum",
+      "annotations": []
+    },
+    {
+      "id": "ramser_fig04",
+      "filename": "ramser_fig04.jpg",
+      "caption": "Step 4: Achievement of Critical View",
+      "description": "All four quadrants of the MPO are visualized",
+      "annotations": []
+    },
+    {
+      "id": "ramser_fig05",
+      "filename": "ramser_fig05.jpg",
+      "caption": "Step 5: Mesh placement and positioning",
+      "description": "Proper mesh orientation and coverage of the MPO",
+      "annotations": []
+    }
+  ],
+  "activities": [
+    {
+      "type": "SequencingInteraction",
+      "id": "ramser-sequence-01",
+      "title": "Order the Procedural Steps",
+      "instruction": "Arrange the following steps in the correct surgical sequence",
+      "steps": [
+        {
+          "id": "step-1",
+          "text": "Peritoneal incision and flap creation",
+          "correctOrder": 1
+        },
+        {
+          "id": "step-2",
+          "text": "Identify inferior epigastric vessels",
+          "correctOrder": 2
+        },
+        {
+          "id": "step-3",
+          "text": "Parietalize the cord structures",
+          "correctOrder": 3
+        },
+        {
+          "id": "step-4",
+          "text": "Achieve Critical View of MPO",
+          "correctOrder": 4
+        },
+        {
+          "id": "step-5",
+          "text": "Place and position mesh",
+          "correctOrder": 5
+        },
+        {
+          "id": "step-6",
+          "text": "Fix mesh in Zone 2 only",
+          "correctOrder": 6
+        },
+        {
+          "id": "step-7",
+          "text": "Close peritoneum completely",
+          "correctOrder": 7
+        }
+      ]
+    },
+    {
+      "type": "VideoTimestampInteraction",
+      "id": "ramser-video-01",
+      "title": "Identify Key Moments",
+      "instruction": "Watch the video and mark when each milestone is achieved",
+      "videoUrl": null,
+      "milestones": [
+        {"name": "IEV identified", "expectedRange": [30, 60]},
+        {"name": "Inverted-Y visible", "expectedRange": [90, 150]},
+        {"name": "CV-MPO achieved", "expectedRange": [180, 240]}
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "fc-ramser-01",
+      "front": "What is the first landmark to identify after entering the preperitoneal space?",
+      "back": "The inferior epigastric vessels (IEV). They orient all subsequent dissection.",
+      "image": null
+    },
+    {
+      "id": "fc-ramser-02",
+      "front": "In which direction should the peritoneal flap be developed?",
+      "back": "Lateral to medial, creating adequate space for mesh placement.",
+      "image": null
+    },
+    {
+      "id": "fc-ramser-03",
+      "front": "What confirms adequate cord parietalization?",
+      "back": "Clear visualization of the inverted-Y with vas and vessels completely separated from peritoneum.",
+      "image": null
+    },
+    {
+      "id": "fc-ramser-04",
+      "front": "When is mesh placement appropriate?",
+      "back": "Only after achieving the Critical View of the Myopectineal Orifice (CV-MPO).",
+      "image": null
+    },
+    {
+      "id": "fc-ramser-05",
+      "front": "What is the final step before closing ports?",
+      "back": "Complete peritoneal closure to prevent mesh-bowel contact.",
+      "image": null
+    }
+  ],
+  "quiz": {
+    "title": "Quick Check: Procedural Sequence",
+    "passingScore": 80,
+    "questions": [
+      {
+        "id": "q-ramser-01",
+        "question": "What is the correct order of: (A) Parietalize cord, (B) Identify IEV, (C) Achieve CV-MPO?",
+        "options": ["A, B, C", "B, A, C", "C, A, B", "B, C, A"],
+        "correctIndex": 1,
+        "explanation": "Correct order: Identify IEV first, then parietalize cord, then achieve CV-MPO."
+      },
+      {
+        "id": "q-ramser-02",
+        "question": "Peritoneal closure should occur:",
+        "options": [
+          "Before mesh placement",
+          "During mesh placement",
+          "After mesh placement and fixation",
+          "Is optional"
+        ],
+        "correctIndex": 2,
+        "explanation": "Peritoneal closure is the final step after mesh is placed and fixed."
+      },
+      {
+        "id": "q-ramser-03",
+        "question": "Mesh fixation should be performed:",
+        "options": [
+          "Before achieving CV-MPO",
+          "After achieving CV-MPO and placing mesh",
+          "During cord parietalization",
+          "Before identifying IEV"
+        ],
+        "correctIndex": 1,
+        "explanation": "Mesh fixation follows mesh placement, which follows CV-MPO achievement."
+      },
+      {
+        "id": "q-ramser-04",
+        "question": "The peritoneal flap is developed:",
+        "options": [
+          "Medial to lateral",
+          "Lateral to medial",
+          "Superior to inferior",
+          "Circular pattern"
+        ],
+        "correctIndex": 1,
+        "explanation": "The flap is developed lateral to medial to create space for mesh."
+      },
+      {
+        "id": "q-ramser-05",
+        "question": "Why is understanding sequence important in rTAPP?",
+        "options": [
+          "Reduces operative time only",
+          "Each step depends on proper execution of previous steps",
+          "Required for billing",
+          "Helps with documentation"
+        ],
+        "correctIndex": 1,
+        "explanation": "Each procedural step builds on correct execution of the previous step."
+      }
+    ]
+  },
+  "wrapup": {
+    "takeaways": [
+      "The rTAPP procedure follows a specific, reproducible sequence",
+      "Each step builds on proper execution of the previous step",
+      "Video demonstrates dynamic anatomy that static images cannot capture"
+    ],
+    "pitfalls": [
+      "Attempting mesh placement before completing parietalization",
+      "Skipping the CV-MPO check under time pressure",
+      "Incomplete peritoneal closure"
+    ],
+    "nextPaper": null
+  }
+}
