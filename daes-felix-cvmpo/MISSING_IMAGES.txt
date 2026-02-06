@@ -1,0 +1,2 @@
+No extracted figures were found in the provided master ZIP for this paper.
+Add them to public/assets/papers/daes-felix-cvmpo/figures/ and update content/papers/daes-felix-cvmpo/module.json figures[].

@@ -1,0 +1,41 @@
+{
+  "slug": "furtado-inverted-y",
+  "figures": [
+    {
+      "id": "fig01",
+      "filename": "furtado-inverted-y_fig01.jpeg",
+      "originalPath": "FURTADO - FIVE TRIANGLES/page2_image1.jpeg",
+      "pageImage": "page2_image1.jpeg"
+    },
+    {
+      "id": "fig02",
+      "filename": "furtado-inverted-y_fig02.jpeg",
+      "originalPath": "FURTADO - FIVE TRIANGLES/page2_image2.jpeg",
+      "pageImage": "page2_image2.jpeg"
+    },
+    {
+      "id": "fig03",
+      "filename": "furtado-inverted-y_fig03.jpeg",
+      "originalPath": "FURTADO - FIVE TRIANGLES/page2_image3.jpeg",
+      "pageImage": "page2_image3.jpeg"
+    },
+    {
+      "id": "fig04",
+      "filename": "furtado-inverted-y_fig04.jpeg",
+      "originalPath": "FURTADO - FIVE TRIANGLES/page2_image4.jpeg",
+      "pageImage": "page2_image4.jpeg"
+    },
+    {
+      "id": "fig05",
+      "filename": "furtado-inverted-y_fig05.jpeg",
+      "originalPath": "FURTADO - FIVE TRIANGLES/page3_image1.jpeg",
+      "pageImage": "page3_image1.jpeg"
+    },
+    {
+      "id": "fig06",
+      "filename": "furtado-inverted-y_fig06.jpeg",
+      "originalPath": "FURTADO - FIVE TRIANGLES/page3_image2.jpeg",
+      "pageImage": "page3_image2.jpeg"
+    }
+  ]
+}
