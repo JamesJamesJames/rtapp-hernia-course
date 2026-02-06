@@ -1,0 +1,29 @@
+{
+  "slug": "ramser-video",
+  "figures": [
+    {
+      "id": "fig01",
+      "filename": "ramser-video_fig01.jpeg",
+      "originalPath": "RAMSER - rTAPP/page2_image1.jpeg",
+      "pageImage": "page2_image1.jpeg"
+    },
+    {
+      "id": "fig02",
+      "filename": "ramser-video_fig02.png",
+      "originalPath": "RAMSER - rTAPP/page4_image1.png",
+      "pageImage": "page4_image1.png"
+    },
+    {
+      "id": "fig03",
+      "filename": "ramser-video_fig03.png",
+      "originalPath": "RAMSER - rTAPP/page5_image1.png",
+      "pageImage": "page5_image1.png"
+    },
+    {
+      "id": "fig04",
+      "filename": "ramser-video_fig04.jpeg",
+      "originalPath": "RAMSER - rTAPP/page7_image1.jpeg",
+      "pageImage": "page7_image1.jpeg"
+    }
+  ]
+}

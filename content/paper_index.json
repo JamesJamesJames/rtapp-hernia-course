@@ -1,91 +1,125 @@
 {
-  "title": "Posterior Groin Anatomy for Inguinal Hernia Repair",
-  "subtitle": "Evidence-based learning from landmark publications",
-  "description": "Master the posterior view of the groin through six carefully curated papers. Each module offers a unique perspective on anatomy and technique for laparoscopic and robotic inguinal hernia repair.",
+  "generated": "2026-02-05",
+  "purposeStatement": "Interactive learning for laparoscopic inguinal anatomy — built from high-yield peer‑reviewed papers. Choose a paper to review key concepts, then practice with figure-based flashcards and labeling.",
   "papers": [
     {
-      "slug": "furtado",
-      "shortTitle": "Furtado et al. — Inverted Y & Five Triangles",
-      "fullTitle": "Anatomical landmarks in robotic-assisted transabdominal preperitoneal inguinal hernia repair",
-      "authors": ["Furtado M", "Claus CMP", "Cavazzola LT", "et al."],
-      "year": 2019,
-      "journal": "ABCD Arq Bras Cir Dig",
-      "pubmedId": "31859925",
-      "bestFor": "Building your mental map of posterior anatomy",
-      "uniqueFeatures": ["Clear landmark identification", "Zone-based approach", "Inverted-Y concept"],
+      "slug": "furtado-inverted-y",
+      "cardTitle": "Inverted Y & Five Triangles: Posterior Groin Anatomy",
       "estimatedMinutes": 25,
-      "prerequisite": null,
-      "pedagogicFocus": "spatial-orientation"
+      "bestFor": "Rapid orientation to posterior inguinal anatomy after peritoneal opening in TAPP/rTAPP.",
+      "features": [
+        "Geometric framework",
+        "Danger/dissection zones",
+        "Schematic overlays"
+      ],
+      "thumbSrc": "/assets/papers/furtado-inverted-y/thumb.jpeg",
+      "tags": [
+        "tapp",
+        "rtapp",
+        "orientation",
+        "inverted-y",
+        "five-triangles",
+        "danger-zones"
+      ]
     },
     {
-      "slug": "yang",
-      "shortTitle": "Yang et al. — Preperitoneal Spaces & Fascial Planes",
-      "fullTitle": "Fascial planes of the groin and their application to robotic transabdominal preperitoneal inguinal hernia repair",
-      "authors": ["Yang XF", "Liu JL"],
-      "year": 2020,
-      "journal": "Journal of Robotic Surgery",
-      "pubmedId": "31256339",
-      "bestFor": "Understanding tissue planes and dissection mechanics",
-      "uniqueFeatures": ["Fascial layer anatomy", "Plane-based dissection", "Surgical technique correlation"],
-      "estimatedMinutes": 30,
-      "prerequisite": null,
-      "pedagogicFocus": "planes-mechanics"
+      "slug": "yang-planes",
+      "cardTitle": "Preperitoneal Spaces and Fascial Planes",
+      "estimatedMinutes": 25,
+      "bestFor": "Understanding Retzius vs Bogros spaces and why correct planes matter during dissection.",
+      "features": [
+        "Fascial layers & spaces",
+        "Parietalization basis",
+        "Diagram-driven"
+      ],
+      "thumbSrc": "/assets/papers/yang-planes/thumb.jpeg",
+      "tags": [
+        "tapp",
+        "tep",
+        "planes",
+        "retzius",
+        "bogros",
+        "parietalization",
+        "fascia"
+      ]
     },
     {
-      "slug": "yasukawa",
-      "shortTitle": "Yasukawa et al. — Crucial Anatomy & Technical Cues",
-      "fullTitle": "Anatomical landmarks and intraoperative decisions in laparoscopic transabdominal preperitoneal repair",
-      "authors": ["Yasukawa D", "Aisu Y", "Hori T"],
-      "year": 2020,
-      "journal": "Asian Journal of Endoscopic Surgery",
-      "pubmedId": "32378346",
-      "bestFor": "Connecting anatomical knowledge to surgical decisions",
-      "uniqueFeatures": ["Decision algorithms", "Landmark-based navigation", "Safety corridors"],
-      "estimatedMinutes": 35,
-      "prerequisite": null,
-      "pedagogicFocus": "decision-making"
+      "slug": "yasukawa-cues",
+      "cardTitle": "Anatomic Landmarks and Technical Cues in TAPP",
+      "estimatedMinutes": 25,
+      "bestFor": "Linking visible anatomic landmarks to intraoperative decisions during TAPP.",
+      "features": [
+        "‘If you see X, do Y’",
+        "Avoid technical errors",
+        "Operative cues"
+      ],
+      "thumbSrc": "/assets/papers/yasukawa-cues/thumb.png",
+      "tags": [
+        "tapp",
+        "technical-cues",
+        "decision-making",
+        "pitfalls",
+        "landmarks"
+      ]
     },
     {
-      "slug": "daes-felix",
-      "shortTitle": "Daes & Felix — Critical View of the MPO",
-      "fullTitle": "Critical view of the myopectineal orifice: A unified anatomical concept for inguinal hernia repair",
-      "authors": ["Daes J", "Felix E"],
-      "year": 2017,
-      "journal": "Surgical Endoscopy",
-      "pubmedId": "28812154",
-      "bestFor": "Establishing the safety endpoint for dissection",
-      "uniqueFeatures": ["Binary safety check", "Critical view concept", "Standardized endpoint"],
-      "estimatedMinutes": 20,
-      "prerequisite": null,
-      "pedagogicFocus": "critical-view"
+      "slug": "daes-felix-cvmpo",
+      "cardTitle": "Critical View of the Myopectineal Orifice (CV-MPO)",
+      "estimatedMinutes": 15,
+      "bestFor": "Defining the minimum anatomic exposure required before mesh placement.",
+      "features": [
+        "Binary endpoint",
+        "Safety focus",
+        "Concept-defining"
+      ],
+      "thumbSrc": "/assets/papers/daes-felix-cvmpo/thumb.jpg",
+      "tags": [
+        "cv-mpo",
+        "standardization",
+        "safety-endpoint",
+        "tapp",
+        "rtapp"
+      ]
     },
     {
-      "slug": "claus",
-      "shortTitle": "Claus et al. — Ten Golden Rules of the MPO",
-      "fullTitle": "Ten golden rules for a safe MIS inguinal hernia repair using a new anatomical concept",
-      "authors": ["Claus CMP", "Furtado M", "Malcher F", "et al."],
-      "year": 2020,
-      "journal": "Surgical Endoscopy",
-      "pubmedId": "32468300",
-      "bestFor": "Memorizing actionable safety guidelines",
-      "uniqueFeatures": ["10 memorable rules", "Step-by-step safety", "Failure mode prevention"],
+      "slug": "claus-10-rules",
+      "cardTitle": "Ten Golden Rules of the Myopectineal Orifice",
+      "estimatedMinutes": 15,
+      "bestFor": "Memorizing anatomy-based principles to reduce complications and recurrence.",
+      "features": [
+        "Rule-based framework",
+        "Anatomy + safety",
+        "OR recall"
+      ],
+      "thumbSrc": "/assets/papers/claus-10-rules/thumb.jpeg",
+      "tags": [
+        "rules",
+        "safety",
+        "mesh",
+        "three-zones",
+        "tapp",
+        "tep",
+        "rtapp"
+      ]
+    },
+    {
+      "slug": "ramser-video",
+      "cardTitle": "Posterior Groin Anatomy During rTAPP (Video)",
       "estimatedMinutes": 40,
-      "prerequisite": null,
-      "pedagogicFocus": "rule-based-safety"
-    },
-    {
-      "slug": "ramser",
-      "shortTitle": "Ramser et al. — rTAPP Video-Based Anatomy",
-      "fullTitle": "Step-by-step approach to robotic transabdominal preperitoneal inguinal hernia repair",
-      "authors": ["Ramser M", "Jang J", "Desai NN"],
-      "year": 2023,
-      "journal": "Journal of Robotic Surgery",
-      "pubmedId": "36694042",
-      "bestFor": "Seeing anatomy unfold during the procedure",
-      "uniqueFeatures": ["Video-based learning", "Step sequencing", "Dynamic visualization"],
-      "estimatedMinutes": 45,
-      "prerequisite": null,
-      "pedagogicFocus": "dynamic-procedural"
+      "bestFor": "Seeing posterior inguinal anatomy unfold in real operative sequence.",
+      "features": [
+        "Intraop video",
+        "Stepwise exposure",
+        "Depth/tissue behavior"
+      ],
+      "thumbSrc": "/assets/papers/ramser-video/thumb.jpeg",
+      "tags": [
+        "rtapp",
+        "video",
+        "sequencing",
+        "steps",
+        "robotic"
+      ]
     }
   ]
 }

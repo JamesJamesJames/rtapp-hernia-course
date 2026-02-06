@@ -1,0 +1,248 @@
+{
+  "slug": "yang-planes",
+  "shortTitle": "Preperitoneal Spaces and Fascial Planes",
+  "title": "Anatomy essentials for laparoscopic inguinal hernia repair",
+  "citation": "Yang XF, Liu JL. Ann Transl Med. 2016;4:372.",
+  "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/27826575/",
+  "estimatedMinutes": 25,
+  "tags": [
+    "tapp",
+    "tep",
+    "planes",
+    "retzius",
+    "bogros",
+    "parietalization",
+    "fascia"
+  ],
+  "learningObjectives": [
+    "Differentiate Retzius vs Bogros spaces by boundaries and surgical meaning.",
+    "Explain how fascial planes affect dissection quality and bleeding/pain risk.",
+    "Describe the anatomic basis of parietalization in one sentence."
+  ],
+  "paperIn3MinBullets": [
+    "Reviews posterior-view anatomy with emphasis on preperitoneal spaces and fascial layers.",
+    "Defines the spaces of Retzius (medial) and Bogros (lateral) and how they connect during dissection.",
+    "Links correct plane selection to safe parietalization and proper mesh lay.",
+    "Diagram-driven: prioritizes conceptual understanding over step-by-step technique.",
+    "Intended to reduce ‘wrong plane’ errors that create bleeding, nerve injury risk, and poor mesh placement."
+  ],
+  "figures": [
+    {
+      "id": "fig01",
+      "src": "/assets/papers/yang-planes/figures/yang-planes_fig01.jpeg",
+      "captionShort": "(add caption)",
+      "tags": []
+    },
+    {
+      "id": "fig02",
+      "src": "/assets/papers/yang-planes/figures/yang-planes_fig02.jpeg",
+      "captionShort": "(add caption)",
+      "tags": []
+    },
+    {
+      "id": "fig03",
+      "src": "/assets/papers/yang-planes/figures/yang-planes_fig03.jpeg",
+      "captionShort": "(add caption)",
+      "tags": []
+    },
+    {
+      "id": "fig04",
+      "src": "/assets/papers/yang-planes/figures/yang-planes_fig04.jpeg",
+      "captionShort": "(add caption)",
+      "tags": []
+    },
+    {
+      "id": "fig05",
+      "src": "/assets/papers/yang-planes/figures/yang-planes_fig05.jpeg",
+      "captionShort": "(add caption)",
+      "tags": []
+    },
+    {
+      "id": "fig06",
+      "src": "/assets/papers/yang-planes/figures/yang-planes_fig06.jpeg",
+      "captionShort": "(add caption)",
+      "tags": []
+    },
+    {
+      "id": "fig07",
+      "src": "/assets/papers/yang-planes/figures/yang-planes_fig07.jpeg",
+      "captionShort": "(add caption)",
+      "tags": []
+    },
+    {
+      "id": "fig08",
+      "src": "/assets/papers/yang-planes/figures/yang-planes_fig08.jpeg",
+      "captionShort": "(add caption)",
+      "tags": []
+    },
+    {
+      "id": "fig09",
+      "src": "/assets/papers/yang-planes/figures/yang-planes_fig09.jpeg",
+      "captionShort": "(add caption)",
+      "tags": []
+    },
+    {
+      "id": "fig10",
+      "src": "/assets/papers/yang-planes/figures/yang-planes_fig10.jpeg",
+      "captionShort": "(add caption)",
+      "tags": []
+    },
+    {
+      "id": "fig11",
+      "src": "/assets/papers/yang-planes/figures/yang-planes_fig11.jpeg",
+      "captionShort": "(add caption)",
+      "tags": []
+    },
+    {
+      "id": "fig12",
+      "src": "/assets/papers/yang-planes/figures/yang-planes_fig12.jpeg",
+      "captionShort": "(add caption)",
+      "tags": []
+    }
+  ],
+  "activities": [
+    {
+      "id": "orient-1",
+      "phase": "orient",
+      "type": "diagramMCQ",
+      "title": "Retzius vs Bogros (diagram orientation)",
+      "figureId": "fig01",
+      "prompt": "Which space is shown highlighted in the diagram?",
+      "choices": [
+        "Retzius",
+        "Bogros"
+      ],
+      "answerIndex": 0,
+      "explanation": "Start with simplified diagrams before laparoscopic images."
+    },
+    {
+      "id": "interrogate-1",
+      "phase": "interrogate",
+      "type": "planeSelection",
+      "title": "Choose the correct plane",
+      "figureId": "fig02",
+      "prompt": "You are dissecting laterally—select the correct fascial plane to stay in.",
+      "choices": [
+        "Superficial to transversalis fascia",
+        "Proper preperitoneal plane (correct)",
+        "Intra-peritoneal plane",
+        "Within cord structures"
+      ],
+      "answerIndex": 1,
+      "explanation": "The paper emphasizes plane correctness as the driver of safe dissection."
+    },
+    {
+      "id": "interrogate-2",
+      "phase": "interrogate",
+      "type": "causeEffect",
+      "title": "Cause–effect: wrong plane",
+      "prompt": "If you are too superficial during lateral dissection, what is the most likely consequence?",
+      "choices": [
+        "Cleaner parietalization",
+        "More bleeding and a shredded plane that complicates mesh lay",
+        "Easier identification of nerves",
+        "Immediate reduction in seroma"
+      ],
+      "answerIndex": 1,
+      "explanation": "Wrong planes typically increase bleeding, tear areolar tissue, and compromise mesh placement."
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "type": "text",
+      "front": "Retzius vs Bogros: one-sentence difference.",
+      "back": "Retzius is the medial preperitoneal space over the pubis/Cooper’s; Bogros is the lateral preperitoneal space over iliopsoas/external iliacs where the lateral mesh wing lies."
+    },
+    {
+      "id": "f2",
+      "type": "text",
+      "front": "Parietalization (one sentence).",
+      "back": "Mobilize cord elements off the peritoneum so the peritoneal flap can close without tension and mesh can lie flat over MPO."
+    },
+    {
+      "id": "f3",
+      "type": "text",
+      "front": "Why does ‘correct plane’ matter?",
+      "back": "It preserves areolar tissue planes, reduces bleeding/nerve risk, and creates a smooth bed for mesh to lay flat."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "q": "Which is the best description of Bogros space?",
+      "choices": [
+        "Medial preperitoneal space over the pubis",
+        "Lateral preperitoneal space bounded by pelvic wall and iliopsoas",
+        "Intra-peritoneal recess behind the bladder",
+        "Space within the inguinal canal"
+      ],
+      "answerIndex": 1,
+      "explanation": "Bogros is the lateral preperitoneal space."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "q": "Yang’s paper is primarily intended to improve:",
+      "choices": [
+        "Instrument selection",
+        "Conceptual understanding of fascial planes and spaces",
+        "Mesh fixation technique",
+        "Port placement"
+      ],
+      "answerIndex": 1,
+      "explanation": "It is diagram-driven and plane-based."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "q": "Parietalization enables:",
+      "choices": [
+        "Tension-free peritoneal closure and flat mesh placement",
+        "Higher fixation strength",
+        "Smaller mesh",
+        "Avoiding peritoneal incision"
+      ],
+      "answerIndex": 0,
+      "explanation": "Parietalization is about mobilization and tension."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "q": "Being too superficial in dissection is most likely to cause:",
+      "choices": [
+        "Less bleeding",
+        "More bleeding and a torn plane",
+        "Better nerve visualization",
+        "Immediate recurrence"
+      ],
+      "answerIndex": 1,
+      "explanation": "Wrong planes are messy and risky."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "q": "Best first learning modality in this module is:",
+      "choices": [
+        "Laparoscopic images",
+        "Simplified diagrams",
+        "Operative video",
+        "Long text"
+      ],
+      "answerIndex": 1,
+      "explanation": "Orient phase starts with diagrams."
+    }
+  ],
+  "wrapUp": {
+    "takeaways": [
+      "Add 3 crisp takeaways here after figures are mapped.",
+      "Keep trainee-facing language concise.",
+      "Use the interactives (not long text) to teach."
+    ],
+    "commonPitfalls": [
+      "Add pitfalls specific to this paper after figure review."
+    ],
+    "nextPaperSlug": "yasukawa-cues"
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "slug": "daes-felix-cvmpo",
+  "shortTitle": "Critical View of the Myopectineal Orifice (CV-MPO)",
+  "title": "Critical View of the Myopectineal Orifice",
+  "citation": "Daes J, Felix E. Ann Surg. 2017;266(1):e1-e2.",
+  "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/27984213/",
+  "estimatedMinutes": 15,
+  "tags": [
+    "cv-mpo",
+    "standardization",
+    "safety-endpoint",
+    "tapp",
+    "rtapp"
+  ],
+  "learningObjectives": [
+    "State what ‘Critical View of the MPO’ means in one sentence.",
+    "Judge whether a given dissection meets CV-MPO (Yes/No).",
+    "Identify which component is missing when CV-MPO is not achieved."
+  ],
+  "paperIn3MinBullets": [
+    "Defines a ‘critical view’ endpoint for MIS inguinal hernia repair analogous to the critical view concept in cholecystectomy.",
+    "Emphasizes standardization and a binary safety checkpoint before mesh placement.",
+    "The goal is not nuance; the goal is a minimum exposure standard.",
+    "Pairs well with Inverted Y / Five Triangles as an orientation tool to achieve the endpoint."
+  ],
+  "figures": [
+    {
+      "id": "fig01",
+      "src": "/assets/papers/daes-felix-cvmpo/figures/daes-felix-cvmpo_fig01.jpg",
+      "captionShort": "(add caption)",
+      "tags": []
+    },
+    {
+      "id": "fig02",
+      "src": "/assets/papers/daes-felix-cvmpo/figures/daes-felix-cvmpo_fig02.jpg",
+      "captionShort": "(add caption)",
+      "tags": []
+    },
+    {
+      "id": "fig03",
+      "src": "/assets/papers/daes-felix-cvmpo/figures/daes-felix-cvmpo_fig03.jpg",
+      "captionShort": "(add caption)",
+      "tags": []
+    },
+    {
+      "id": "fig04",
+      "src": "/assets/papers/daes-felix-cvmpo/figures/daes-felix-cvmpo_fig04.jpg",
+      "captionShort": "(add caption)",
+      "tags": []
+    },
+    {
+      "id": "fig05",
+      "src": "/assets/papers/daes-felix-cvmpo/figures/daes-felix-cvmpo_fig05.jpg",
+      "captionShort": "(add caption)",
+      "tags": []
+    },
+    {
+      "id": "fig06",
+      "src": "/assets/papers/daes-felix-cvmpo/figures/daes-felix-cvmpo_fig06.jpg",
+      "captionShort": "(add caption)",
+      "tags": []
+    },
+    {
+      "id": "fig07",
+      "src": "/assets/papers/daes-felix-cvmpo/figures/daes-felix-cvmpo_fig07.jpg",
+      "captionShort": "(add caption)",
+      "tags": []
+    },
+    {
+      "id": "fig08",
+      "src": "/assets/papers/daes-felix-cvmpo/figures/daes-felix-cvmpo_fig08.jpg",
+      "captionShort": "(add caption)",
+      "tags": []
+    },
+    {
+      "id": "fig09",
+      "src": "/assets/papers/daes-felix-cvmpo/figures/daes-felix-cvmpo_fig09.jpg",
+      "captionShort": "(add caption)",
+      "tags": []
+    },
+    {
+      "id": "fig10",
+      "src": "/assets/papers/daes-felix-cvmpo/figures/daes-felix-cvmpo_fig10.jpg",
+      "captionShort": "(add caption)",
+      "tags": []
+    },
+    {
+      "id": "fig11",
+      "src": "/assets/papers/daes-felix-cvmpo/figures/daes-felix-cvmpo_fig11.jpg",
+      "captionShort": "(add caption)",
+      "tags": []
+    },
+    {
+      "id": "fig12",
+      "src": "/assets/papers/daes-felix-cvmpo/figures/daes-felix-cvmpo_fig12.jpg",
+      "captionShort": "(add caption)",
+      "tags": []
+    }
+  ],
+  "activities": [
+    {
+      "id": "orient-1",
+      "phase": "orient",
+      "type": "referenceDiagram",
+      "title": "CV-MPO reference image",
+      "figureId": "fig01",
+      "instructions": "This is the ‘complete’ reference. Everything else is judged against this."
+    },
+    {
+      "id": "interrogate-1",
+      "phase": "interrogate",
+      "type": "binaryAssessment",
+      "title": "Is CV-MPO achieved?",
+      "figureId": "fig02",
+      "prompt": "Is the critical view achieved in this image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answerIndex": 1,
+      "explanation": "If no, identify the missing exposure elements."
+    },
+    {
+      "id": "interrogate-2",
+      "phase": "interrogate",
+      "type": "missingElements",
+      "title": "What is missing?",
+      "figureId": "fig02",
+      "prompt": "Which element is missing for CV-MPO?",
+      "choices": [
+        "Adequate pubic/Cooper’s exposure",
+        "Cord parietalization",
+        "Lateral space opened for mesh wing",
+        "All of the above"
+      ],
+      "answerIndex": 3,
+      "explanation": "Use the paper’s definition of the endpoint; if any required element is absent, answer ‘No’."
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "type": "text",
+      "front": "Define CV-MPO in one sentence.",
+      "back": "A minimum anatomic exposure standard in MIS inguinal repair that must be achieved before mesh placement to ensure full coverage and avoid complications."
+    },
+    {
+      "id": "f2",
+      "type": "text",
+      "front": "CV-MPO is primarily a:",
+      "back": "Binary safety checkpoint (Yes/No)."
+    },
+    {
+      "id": "f3",
+      "type": "text",
+      "front": "If CV-MPO is not achieved, the right action is:",
+      "back": "Continue dissection until required anatomic exposure is obtained; do not ‘settle’ and place mesh early."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "q": "CV-MPO is best described as:",
+      "choices": [
+        "A mesh fixation technique",
+        "A binary endpoint defining minimum exposure before mesh placement",
+        "A classification of hernia types",
+        "A nerve block approach"
+      ],
+      "answerIndex": 1,
+      "explanation": "It is a standardization/safety endpoint."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "q": "The most appropriate use of CV-MPO is:",
+      "choices": [
+        "After closing peritoneum",
+        "Before mesh placement",
+        "Before trocar placement",
+        "Only in open repairs"
+      ],
+      "answerIndex": 1,
+      "explanation": "It’s a pre-mesh checkpoint."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "q": "If CV-MPO is not achieved, you should:",
+      "choices": [
+        "Proceed to mesh anyway",
+        "Fixate mesh more",
+        "Continue dissection to meet exposure standard",
+        "Convert to TEP"
+      ],
+      "answerIndex": 2,
+      "explanation": "Meet the standard before proceeding."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "q": "This module is designed to feel:",
+      "choices": [
+        "Nuanced and interpretive",
+        "Regulatory/standard-driven",
+        "Like a history review",
+        "Like a product demo"
+      ],
+      "answerIndex": 1,
+      "explanation": "Binary assessment."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "q": "CV-MPO pairs best with which learning module?",
+      "choices": [
+        "Furtado orientation framework",
+        "Only video module",
+        "None; it is standalone",
+        "Mesh materials module"
+      ],
+      "answerIndex": 0,
+      "explanation": "Orientation frameworks help you achieve the endpoint."
+    }
+  ],
+  "wrapUp": {
+    "takeaways": [
+      "Add 3 crisp takeaways here after figures are mapped.",
+      "Keep trainee-facing language concise.",
+      "Use the interactives (not long text) to teach."
+    ],
+    "commonPitfalls": [
+      "Add pitfalls specific to this paper after figure review."
+    ],
+    "nextPaperSlug": "claus-10-rules"
+  }
+}
