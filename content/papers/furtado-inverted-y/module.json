@@ -1,0 +1,219 @@
+{
+  "slug": "furtado-inverted-y",
+  "shortTitle": "Inverted Y & Five Triangles: Posterior Groin Anatomy",
+  "title": "Systemization of laparoscopic inguinal hernia repair (TAPP) based on a new anatomical concept: inverted Y and five triangles",
+  "citation": "Furtado M, Claus C, Malcher F, Cavazzola LT, Felix E. (2019).",
+  "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/30758474/",
+  "estimatedMinutes": 25,
+  "tags": [
+    "tapp",
+    "rtapp",
+    "orientation",
+    "inverted-y",
+    "five-triangles",
+    "danger-zones"
+  ],
+  "learningObjectives": [
+    "Identify the three structures that form the Inverted Y in the posterior view.",
+    "Name the Five Triangles and state what each contains at a high level.",
+    "Use the framework to orient yourself immediately after peritoneal opening in TAPP/rTAPP."
+  ],
+  "paperIn3MinBullets": [
+    "Defines a reproducible posterior-view anatomy map for TAPP based on the ‘Inverted Y’ and ‘Five Triangles’.",
+    "Uses three landmark structures (inferior epigastrics, vas deferens, gonadal vessels) to orient the field quickly.",
+    "Divides the posterior groin into triangles to standardize where dissection is performed and where danger structures live.",
+    "Intended as a teaching and standardization tool to reduce cognitive overload early in the learning curve.",
+    "Pairs laparoscopic images with schematic overlays to reinforce spatial layout."
+  ],
+  "figures": [
+    {
+      "id": "fig01",
+      "src": "/assets/papers/furtado-inverted-y/figures/furtado-inverted-y_fig01.jpeg",
+      "captionShort": "(add caption)",
+      "tags": []
+    },
+    {
+      "id": "fig02",
+      "src": "/assets/papers/furtado-inverted-y/figures/furtado-inverted-y_fig02.jpeg",
+      "captionShort": "(add caption)",
+      "tags": []
+    },
+    {
+      "id": "fig03",
+      "src": "/assets/papers/furtado-inverted-y/figures/furtado-inverted-y_fig03.jpeg",
+      "captionShort": "(add caption)",
+      "tags": []
+    },
+    {
+      "id": "fig04",
+      "src": "/assets/papers/furtado-inverted-y/figures/furtado-inverted-y_fig04.jpeg",
+      "captionShort": "(add caption)",
+      "tags": []
+    },
+    {
+      "id": "fig05",
+      "src": "/assets/papers/furtado-inverted-y/figures/furtado-inverted-y_fig05.jpeg",
+      "captionShort": "(add caption)",
+      "tags": []
+    },
+    {
+      "id": "fig06",
+      "src": "/assets/papers/furtado-inverted-y/figures/furtado-inverted-y_fig06.jpeg",
+      "captionShort": "(add caption)",
+      "tags": []
+    }
+  ],
+  "activities": [
+    {
+      "id": "orient-1",
+      "phase": "orient",
+      "type": "imageViewer",
+      "title": "Posterior groin overview (overlays OFF by default)",
+      "figureId": "fig01",
+      "overlays": [
+        {
+          "id": "invertedY",
+          "label": "Inverted Y overlay",
+          "defaultOn": false
+        },
+        {
+          "id": "triangles",
+          "label": "Five triangles boundaries",
+          "defaultOn": false
+        }
+      ],
+      "instructions": "Start with overlays OFF. Turn on Inverted Y, then triangles. Keep labels minimal: names only."
+    },
+    {
+      "id": "interrogate-1",
+      "phase": "interrogate",
+      "type": "hotspotDrill",
+      "title": "Name the triangles",
+      "figureId": "fig01",
+      "promptType": "label-highlight",
+      "prompt": "Select the correct triangle name for the highlighted region.",
+      "hotspotsRef": "hotspots.json",
+      "filterTags": [
+        "triangle"
+      ]
+    },
+    {
+      "id": "interrogate-2",
+      "phase": "interrogate",
+      "type": "hotspotDrill",
+      "title": "Which zone are you in?",
+      "figureId": "fig01",
+      "promptType": "mcq",
+      "prompt": "Based on the highlighted region, which dissection zone is this?",
+      "choices": [
+        "Zone 1 (lateral)",
+        "Zone 2 (medial/direct)",
+        "Zone 3 (central/high attention)"
+      ],
+      "answerIndex": 2,
+      "explanation": "Use the paper’s zone concept to mentally bucket risk and attention.",
+      "hotspotsRef": "hotspots.json",
+      "filterTags": [
+        "zone"
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "type": "text",
+      "front": "Inverted Y: name the 3 structures that form it.",
+      "back": "Inferior epigastric vessels (superior limb) + vas deferens (medial limb) + gonadal/spermatic vessels (lateral limb)."
+    },
+    {
+      "id": "f2",
+      "type": "text",
+      "front": "Why use the Inverted Y early in TAPP/rTAPP?",
+      "back": "Fast orientation after peritoneal opening; anchors the rest of the posterior anatomy map."
+    },
+    {
+      "id": "f3",
+      "type": "text",
+      "front": "Five triangles: what’s the point?",
+      "back": "Partition the posterior groin into consistent regions so you can predict what structures live where and standardize dissection."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "q": "The Inverted Y is formed by which set of structures?",
+      "choices": [
+        "Vas deferens, Cooper’s ligament, iliopubic tract",
+        "Inferior epigastrics, vas deferens, gonadal vessels",
+        "External iliac vein, femoral nerve, corona mortis",
+        "Rectus muscle, transversalis fascia, peritoneum"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Inverted Y is the key orientation tool described in the paper."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "q": "What is the main purpose of the Five Triangles framework?",
+      "choices": [
+        "To classify hernia types",
+        "To define mesh materials",
+        "To organize posterior-view anatomy into predictable regions",
+        "To mandate fixation method"
+      ],
+      "answerIndex": 2,
+      "explanation": "It’s a spatial organization tool for posterior groin anatomy."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "q": "In this module, why are overlays OFF by default?",
+      "choices": [
+        "To reduce file size",
+        "To force the learner to orient visually before relying on guides",
+        "Because overlays are inaccurate",
+        "Because zoom is disabled"
+      ],
+      "answerIndex": 1,
+      "explanation": "Orientation is the dominant cognitive task; overlays are scaffolding."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "q": "Best use of this paper during learning TAPP/rTAPP is:",
+      "choices": [
+        "Memorize complication rates",
+        "Build a mental map immediately after peritoneal opening",
+        "Choose mesh brand",
+        "Decide trocar placement"
+      ],
+      "answerIndex": 1,
+      "explanation": "It is primarily an orientation framework."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "q": "This module intentionally avoids which activity?",
+      "choices": [
+        "Image labeling",
+        "Flashcards",
+        "Safety hypotheticals and operative decision drills",
+        "Figure gallery"
+      ],
+      "answerIndex": 2,
+      "explanation": "Furtado module is the map; decision-making is emphasized in Yasukawa."
+    }
+  ],
+  "wrapUp": {
+    "takeaways": [
+      "Add 3 crisp takeaways here after figures are mapped.",
+      "Keep trainee-facing language concise.",
+      "Use the interactives (not long text) to teach."
+    ],
+    "commonPitfalls": [
+      "Add pitfalls specific to this paper after figure review."
+    ],
+    "nextPaperSlug": "yang-planes"
+  }
+}

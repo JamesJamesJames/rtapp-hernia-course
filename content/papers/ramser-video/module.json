@@ -1,0 +1,221 @@
+{
+  "slug": "ramser-video",
+  "shortTitle": "Posterior Groin Anatomy During rTAPP (Video)",
+  "title": "Robotic inguinal hernia repair (r‑TAPP). Video report and results of a series of 302 hernia operations",
+  "citation": "Ramser M, et al. Chirurg. 2021. (English version available on PMC).",
+  "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/34185126/",
+  "estimatedMinutes": 40,
+  "tags": [
+    "rtapp",
+    "video",
+    "sequencing",
+    "steps",
+    "robotic"
+  ],
+  "learningObjectives": [
+    "Identify key posterior groin structures as they appear during rTAPP.",
+    "Place major steps of rTAPP into the correct sequence.",
+    "Translate dynamic appearance (tissue behavior) into stable anatomic understanding."
+  ],
+  "paperIn3MinBullets": [
+    "Video article illustrating rTAPP anatomy and steps, paired with outcomes from a 302-hernia series.",
+    "Focus is on dynamic anatomy: what appears when, and how tissue behaves with traction and dissection.",
+    "Best used after at least one ‘map’ module (Furtado) so video reinforces an existing mental model.",
+    "Includes supplementary video (English version available on PMC)."
+  ],
+  "figures": [
+    {
+      "id": "fig01",
+      "src": "/assets/papers/ramser-video/figures/ramser-video_fig01.jpeg",
+      "captionShort": "(add caption)",
+      "tags": []
+    },
+    {
+      "id": "fig02",
+      "src": "/assets/papers/ramser-video/figures/ramser-video_fig02.png",
+      "captionShort": "(add caption)",
+      "tags": []
+    },
+    {
+      "id": "fig03",
+      "src": "/assets/papers/ramser-video/figures/ramser-video_fig03.png",
+      "captionShort": "(add caption)",
+      "tags": []
+    },
+    {
+      "id": "fig04",
+      "src": "/assets/papers/ramser-video/figures/ramser-video_fig04.jpeg",
+      "captionShort": "(add caption)",
+      "tags": []
+    }
+  ],
+  "activities": [
+    {
+      "id": "orient-1",
+      "phase": "orient",
+      "type": "stillOverview",
+      "title": "Still frames overview",
+      "figureId": "fig01",
+      "instructions": "Skim 3–5 stills to orient. Do not over-label."
+    },
+    {
+      "id": "interrogate-1",
+      "phase": "interrogate",
+      "type": "videoPause",
+      "title": "Pause-and-identify",
+      "video": {
+        "source": "pmc",
+        "pmcInfo": "English version has supplementary mp4; link supplied in module metadata.",
+        "url": "(add video url)"
+      },
+      "pauses": [
+        {
+          "t": 15,
+          "prompt": "What space is being entered here?",
+          "choices": [
+            "Retzius",
+            "Bogros",
+            "Intraperitoneal",
+            "Scrotal sac"
+          ],
+          "answerIndex": 1,
+          "explanation": "Use context: lateral dissection over iliopsoas/external iliac region."
+        },
+        {
+          "t": 45,
+          "prompt": "Identify the landmark that orients the posterior view.",
+          "choices": [
+            "Inferior epigastrics",
+            "Appendix",
+            "Gallbladder",
+            "SMA"
+          ],
+          "answerIndex": 0,
+          "explanation": "Inferior epigastrics are a key landmark for orientation."
+        }
+      ]
+    },
+    {
+      "id": "interrogate-2",
+      "phase": "interrogate",
+      "type": "sequenceOrder",
+      "title": "Order the rTAPP steps",
+      "prompt": "Drag the steps into the correct order (high-level).",
+      "items": [
+        "Create peritoneal flap",
+        "Develop preperitoneal spaces (Retzius/Bogros)",
+        "Reduce sac / parietalize cord",
+        "Achieve adequate exposure (endpoint)",
+        "Place mesh and ensure coverage",
+        "Close peritoneum"
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "explanation": "High-level sequencing for learners; paper/video provide the visual mapping."
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "type": "text",
+      "front": "Why use video learning for rTAPP anatomy?",
+      "back": "It shows tissue depth, tension, and how landmarks ‘appear’ through the sequence—bridging atlas → OR."
+    },
+    {
+      "id": "f2",
+      "type": "text",
+      "front": "Best prerequisite module before this one:",
+      "back": "Furtado (orientation map) so you can recognize landmarks as they appear."
+    },
+    {
+      "id": "f3",
+      "type": "text",
+      "front": "Commit task after video should be:",
+      "back": "Light reflection + optional labeled replay (avoid over-testing)."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "q": "The primary learning value of Ramser’s module is:",
+      "choices": [
+        "Rule memorization",
+        "Dynamic anatomy across time",
+        "Plane mechanics diagrams",
+        "Binary safety scoring"
+      ],
+      "answerIndex": 1,
+      "explanation": "It’s a video-based sequencing module."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "q": "A good study strategy for this module is to:",
+      "choices": [
+        "Memorize every frame",
+        "Watch, pause, identify space/landmark, then continue",
+        "Skip the video",
+        "Only do flashcards"
+      ],
+      "answerIndex": 1,
+      "explanation": "Pause-and-identify is the core."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "q": "Sequence ordering is included to train:",
+      "choices": [
+        "Billing",
+        "Temporal flow of rTAPP steps",
+        "Mesh brand selection",
+        "Hernia classification"
+      ],
+      "answerIndex": 1,
+      "explanation": "Temporal sequencing."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "q": "This module’s Commit phase is intentionally:",
+      "choices": [
+        "Heavy recall",
+        "Light–moderate",
+        "Not present",
+        "Only labeling"
+      ],
+      "answerIndex": 1,
+      "explanation": "Observation is prioritized."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "q": "Where should the supplementary video link come from?",
+      "choices": [
+        "A random YouTube search",
+        "The paper’s PMC supplementary materials / official source",
+        "A personal upload",
+        "Not needed"
+      ],
+      "answerIndex": 1,
+      "explanation": "Use the official supplementary source."
+    }
+  ],
+  "wrapUp": {
+    "takeaways": [
+      "Add 3 crisp takeaways here after figures are mapped.",
+      "Keep trainee-facing language concise.",
+      "Use the interactives (not long text) to teach."
+    ],
+    "commonPitfalls": [
+      "Add pitfalls specific to this paper after figure review."
+    ],
+    "nextPaperSlug": null
+  }
+}

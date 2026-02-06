@@ -1,0 +1,336 @@
+{
+  "slug": "claus-10-rules",
+  "shortTitle": "Ten Golden Rules of the Myopectineal Orifice",
+  "title": "Ten golden rules for a safe MIS inguinal hernia repair using a new anatomical concept as a guide",
+  "citation": "Claus C, Furtado M, Malcher F, Cavazzola LT, Felix E. Surg Endosc. 2020.",
+  "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/32076858/",
+  "estimatedMinutes": 15,
+  "tags": [
+    "rules",
+    "safety",
+    "mesh",
+    "three-zones",
+    "tapp",
+    "tep",
+    "rtapp"
+  ],
+  "learningObjectives": [
+    "Recall the 10 Golden Rules by number and title.",
+    "Match a rule to a landmark situation (‘which rule applies here?’).",
+    "Recognize common violations and the safer alternative."
+  ],
+  "paperIn3MinBullets": [
+    "Synthesizes CV-MPO and posterior-view anatomy (Inverted Y / Five Triangles) into 10 practical rules for safe MIS inguinal hernia repair.",
+    "Rules are intended to be recalled during the operation.",
+    "Emphasizes adequate dissection, safe planes, appropriate mesh size/position, and safe closure.",
+    "Applies across TAPP/TEP/ETEP/rTAPP."
+  ],
+  "figures": [
+    {
+      "id": "fig01",
+      "src": "/assets/papers/claus-10-rules/figures/claus-10-rules_fig01.jpeg",
+      "captionShort": "(add caption)",
+      "tags": []
+    },
+    {
+      "id": "fig02",
+      "src": "/assets/papers/claus-10-rules/figures/claus-10-rules_fig02.jpeg",
+      "captionShort": "(add caption)",
+      "tags": []
+    },
+    {
+      "id": "fig03",
+      "src": "/assets/papers/claus-10-rules/figures/claus-10-rules_fig03.jpeg",
+      "captionShort": "(add caption)",
+      "tags": []
+    },
+    {
+      "id": "fig04",
+      "src": "/assets/papers/claus-10-rules/figures/claus-10-rules_fig04.jpeg",
+      "captionShort": "(add caption)",
+      "tags": []
+    },
+    {
+      "id": "fig05",
+      "src": "/assets/papers/claus-10-rules/figures/claus-10-rules_fig05.jpeg",
+      "captionShort": "(add caption)",
+      "tags": []
+    },
+    {
+      "id": "fig06",
+      "src": "/assets/papers/claus-10-rules/figures/claus-10-rules_fig06.jpeg",
+      "captionShort": "(add caption)",
+      "tags": []
+    },
+    {
+      "id": "fig07",
+      "src": "/assets/papers/claus-10-rules/figures/claus-10-rules_fig07.jpeg",
+      "captionShort": "(add caption)",
+      "tags": []
+    },
+    {
+      "id": "fig08",
+      "src": "/assets/papers/claus-10-rules/figures/claus-10-rules_fig08.jpeg",
+      "captionShort": "(add caption)",
+      "tags": []
+    },
+    {
+      "id": "fig09",
+      "src": "/assets/papers/claus-10-rules/figures/claus-10-rules_fig09.jpeg",
+      "captionShort": "(add caption)",
+      "tags": []
+    },
+    {
+      "id": "fig10",
+      "src": "/assets/papers/claus-10-rules/figures/claus-10-rules_fig10.jpeg",
+      "captionShort": "(add caption)",
+      "tags": []
+    }
+  ],
+  "activities": [
+    {
+      "id": "orient-1",
+      "phase": "orient",
+      "type": "ruleList",
+      "title": "10 Golden Rules (plain list)",
+      "rules": [
+        {
+          "num": 1,
+          "title": "Rule 1: Beginning of surgery"
+        },
+        {
+          "num": 2,
+          "title": "Rule 2: Dissection should follow the peritoneal plane"
+        },
+        {
+          "num": 3,
+          "title": "Rule 3: Dissection should extend to at least the pubic symphysis, avoiding  the transversalis fascia in cases of direct hernias."
+        },
+        {
+          "num": 4,
+          "title": "Rule 4: The external iliac vein should be visible, thus avoid  of the mesh to help prevent upward mesh rolling. Since"
+        },
+        {
+          "num": 5,
+          "title": "Rule 5: Parietalization of the elements of the cord is considered (i.e., the inverted Y and the 5 triangles as seen in Fig. 1 and"
+        },
+        {
+          "num": 6,
+          "title": "Rule 6: In large or inguino-scrotal hernias, it is recommended "
+        },
+        {
+          "num": 7,
+          "title": "Rule 7: The deep inguinal canal should be explored during"
+        },
+        {
+          "num": 8,
+          "title": "Rule 8: A large mesh (usually at least 10 cm craniocaudal "
+        },
+        {
+          "num": 9,
+          "title": "Rule 9: Mesh fixation is not necessary, especially in TEP [5]."
+        },
+        {
+          "num": 10,
+          "title": "Rule 10: Deflation under direct visualization"
+        }
+      ]
+    },
+    {
+      "id": "interrogate-1",
+      "phase": "interrogate",
+      "type": "ruleMatching",
+      "title": "Rule → anatomy match",
+      "prompt": "Given the image/landmark, which rule applies most directly?",
+      "figureId": "fig01",
+      "choices": [
+        "Rule 1",
+        "Rule 2",
+        "Rule 3",
+        "Rule 4",
+        "Rule 5",
+        "Rule 6",
+        "Rule 7",
+        "Rule 8",
+        "Rule 9",
+        "Rule 10"
+      ],
+      "answerIndex": 2,
+      "explanation": "Use the rule framework to compress decision-making."
+    },
+    {
+      "id": "interrogate-2",
+      "phase": "interrogate",
+      "type": "violationRecognition",
+      "title": "Which rule is being violated?",
+      "figureId": "fig02",
+      "prompt": "Which rule is being broken in this scenario?",
+      "choices": [
+        "Rule 1",
+        "Rule 2",
+        "Rule 3",
+        "Rule 4",
+        "Rule 5",
+        "Rule 6",
+        "Rule 7",
+        "Rule 8",
+        "Rule 9",
+        "Rule 10"
+      ],
+      "answerIndex": 8,
+      "explanation": "Violation recognition reinforces safety heuristics."
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "r1",
+      "type": "text",
+      "front": "Golden Rule #1: state the rule title.",
+      "back": "Rule 1: Beginning of surgery"
+    },
+    {
+      "id": "r2",
+      "type": "text",
+      "front": "Golden Rule #2: state the rule title.",
+      "back": "Rule 2: Dissection should follow the peritoneal plane"
+    },
+    {
+      "id": "r3",
+      "type": "text",
+      "front": "Golden Rule #3: state the rule title.",
+      "back": "Rule 3: Dissection should extend to at least the pubic symphysis, avoiding  the transversalis fascia in cases of direct hernias."
+    },
+    {
+      "id": "r4",
+      "type": "text",
+      "front": "Golden Rule #4: state the rule title.",
+      "back": "Rule 4: The external iliac vein should be visible, thus avoid  of the mesh to help prevent upward mesh rolling. Since"
+    },
+    {
+      "id": "r5",
+      "type": "text",
+      "front": "Golden Rule #5: state the rule title.",
+      "back": "Rule 5: Parietalization of the elements of the cord is considered (i.e., the inverted Y and the 5 triangles as seen in Fig. 1 and"
+    },
+    {
+      "id": "r6",
+      "type": "text",
+      "front": "Golden Rule #6: state the rule title.",
+      "back": "Rule 6: In large or inguino-scrotal hernias, it is recommended "
+    },
+    {
+      "id": "r7",
+      "type": "text",
+      "front": "Golden Rule #7: state the rule title.",
+      "back": "Rule 7: The deep inguinal canal should be explored during"
+    },
+    {
+      "id": "r8",
+      "type": "text",
+      "front": "Golden Rule #8: state the rule title.",
+      "back": "Rule 8: A large mesh (usually at least 10 cm craniocaudal "
+    },
+    {
+      "id": "r9",
+      "type": "text",
+      "front": "Golden Rule #9: state the rule title.",
+      "back": "Rule 9: Mesh fixation is not necessary, especially in TEP [5]."
+    },
+    {
+      "id": "r10",
+      "type": "text",
+      "front": "Golden Rule #10: state the rule title.",
+      "back": "Rule 10: Deflation under direct visualization"
+    },
+    {
+      "id": "f11",
+      "type": "text",
+      "front": "What is the purpose of the Golden Rules format?",
+      "back": "Memory compression for intraoperative recall and standardization."
+    },
+    {
+      "id": "f12",
+      "type": "text",
+      "front": "Golden Rules are primarily anchored to:",
+      "back": "Anatomic landmarks + exposure endpoints (e.g., CV-MPO)."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "q": "The Golden Rules are designed primarily for:",
+      "choices": [
+        "Paper citation memorization",
+        "Intraoperative recall and standardization",
+        "Choosing robotic platform",
+        "Billing optimization"
+      ],
+      "answerIndex": 1,
+      "explanation": "They are meant to live in the surgeon’s head."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "q": "Which concept is explicitly integrated into the rules framework?",
+      "choices": [
+        "CV-MPO",
+        "Appendectomy critical view",
+        "ERAS diet",
+        "FAST exam"
+      ],
+      "answerIndex": 0,
+      "explanation": "CV-MPO is a key part of the synthesis."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "q": "The commit phase focuses on:",
+      "choices": [
+        "Plane mechanics",
+        "Pure recall of rule number/title/trigger",
+        "Long reading",
+        "Video sequencing"
+      ],
+      "answerIndex": 1,
+      "explanation": "This is the memory module."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "q": "Best pairing order for learners is:",
+      "choices": [
+        "Claus first",
+        "Furtado then Claus",
+        "Ramser then Furtado",
+        "Daes last always"
+      ],
+      "answerIndex": 1,
+      "explanation": "Map first, then rules."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "q": "If you can’t recall rules in order, the app should:",
+      "choices": [
+        "Lock you out",
+        "Shuffle and test recall by random order",
+        "Remove flashcards",
+        "Require login"
+      ],
+      "answerIndex": 1,
+      "explanation": "Randomization is a core commit feature."
+    }
+  ],
+  "wrapUp": {
+    "takeaways": [
+      "Add 3 crisp takeaways here after figures are mapped.",
+      "Keep trainee-facing language concise.",
+      "Use the interactives (not long text) to teach."
+    ],
+    "commonPitfalls": [
+      "Add pitfalls specific to this paper after figure review."
+    ],
+    "nextPaperSlug": "ramser-video"
+  }
+}

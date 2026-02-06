@@ -1,0 +1,234 @@
+{
+  "slug": "yasukawa-cues",
+  "shortTitle": "Anatomic Landmarks and Technical Cues in TAPP",
+  "title": "Crucial anatomy and technical cues for laparoscopic transabdominal preperitoneal repair: Advanced manipulation for groin hernias in adults",
+  "citation": "Yasukawa D, Aisu Y, Hori T. World J Gastrointest Surg. 2020;12(7):307-325.",
+  "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/32821340/",
+  "estimatedMinutes": 25,
+  "tags": [
+    "tapp",
+    "technical-cues",
+    "decision-making",
+    "pitfalls",
+    "landmarks"
+  ],
+  "learningObjectives": [
+    "Recognize key posterior-view landmarks that trigger specific operative decisions.",
+    "Choose the safe next maneuver when presented with common TAPP scenarios.",
+    "Identify typical pitfall patterns and the safer alternative."
+  ],
+  "paperIn3MinBullets": [
+    "Provides anatomy-linked technical cues for safe laparoscopic TAPP dissection.",
+    "Uses ‘If you see X, do Y’ reasoning to connect landmarks to action selection.",
+    "Highlights common error modes and how they appear visually.",
+    "Emphasizes anatomical familiarity + technique as the core of reproducible outcomes.",
+    "Best used as decision drill material rather than a labeling atlas."
+  ],
+  "figures": [
+    {
+      "id": "fig01",
+      "src": "/assets/papers/yasukawa-cues/figures/yasukawa-cues_fig01.png",
+      "captionShort": "(add caption)",
+      "tags": []
+    },
+    {
+      "id": "fig02",
+      "src": "/assets/papers/yasukawa-cues/figures/yasukawa-cues_fig02.png",
+      "captionShort": "(add caption)",
+      "tags": []
+    },
+    {
+      "id": "fig03",
+      "src": "/assets/papers/yasukawa-cues/figures/yasukawa-cues_fig03.png",
+      "captionShort": "(add caption)",
+      "tags": []
+    },
+    {
+      "id": "fig04",
+      "src": "/assets/papers/yasukawa-cues/figures/yasukawa-cues_fig04.png",
+      "captionShort": "(add caption)",
+      "tags": []
+    },
+    {
+      "id": "fig05",
+      "src": "/assets/papers/yasukawa-cues/figures/yasukawa-cues_fig05.png",
+      "captionShort": "(add caption)",
+      "tags": []
+    },
+    {
+      "id": "fig06",
+      "src": "/assets/papers/yasukawa-cues/figures/yasukawa-cues_fig06.png",
+      "captionShort": "(add caption)",
+      "tags": []
+    },
+    {
+      "id": "fig07",
+      "src": "/assets/papers/yasukawa-cues/figures/yasukawa-cues_fig07.png",
+      "captionShort": "(add caption)",
+      "tags": []
+    },
+    {
+      "id": "fig08",
+      "src": "/assets/papers/yasukawa-cues/figures/yasukawa-cues_fig08.png",
+      "captionShort": "(add caption)",
+      "tags": []
+    },
+    {
+      "id": "fig09",
+      "src": "/assets/papers/yasukawa-cues/figures/yasukawa-cues_fig09.png",
+      "captionShort": "(add caption)",
+      "tags": []
+    },
+    {
+      "id": "fig10",
+      "src": "/assets/papers/yasukawa-cues/figures/yasukawa-cues_fig10.png",
+      "captionShort": "(add caption)",
+      "tags": []
+    },
+    {
+      "id": "fig11",
+      "src": "/assets/papers/yasukawa-cues/figures/yasukawa-cues_fig11.png",
+      "captionShort": "(add caption)",
+      "tags": []
+    }
+  ],
+  "activities": [
+    {
+      "id": "orient-1",
+      "phase": "orient",
+      "type": "textBlock",
+      "title": "Landmark recap (fast)",
+      "content": "This module is decision-focused. Skim the landmark list; do not try to label everything. The goal is to decide what to do next when you see a landmark."
+    },
+    {
+      "id": "interrogate-1",
+      "phase": "interrogate",
+      "type": "decisionScenario",
+      "title": "Landmark → next step",
+      "figureId": "fig01",
+      "prompt": "You identify the inferior epigastric vessels and the deep ring. What is the safest next maneuver?",
+      "choices": [
+        "Aggressively dissect directly on external iliac vessels",
+        "Continue lateral dissection in the correct preperitoneal plane to open Bogros",
+        "Place mesh immediately",
+        "Fixate mesh medially to Cooper’s before parietalization"
+      ],
+      "answerIndex": 1,
+      "explanation": "Use landmarks to stay in correct planes and progress systematically."
+    },
+    {
+      "id": "interrogate-2",
+      "phase": "interrogate",
+      "type": "decisionScenario",
+      "title": "Unsafe maneuver recognition",
+      "figureId": "fig02",
+      "prompt": "Which maneuver is unsafe in the highlighted region?",
+      "choices": [
+        "Blunt dissection in areolar plane",
+        "Thermal dissection adjacent to major vessels/nerve zone",
+        "Gentle traction-countertraction",
+        "Stop and re-orient using Inverted Y"
+      ],
+      "answerIndex": 1,
+      "explanation": "The module emphasizes recognizing and avoiding error-prone behaviors."
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "type": "text",
+      "front": "Decision drill mantra for this module.",
+      "back": "Name the landmark → choose the next safe action → state what you are trying to expose next."
+    },
+    {
+      "id": "f2",
+      "type": "text",
+      "front": "If you are lost during TAPP dissection, what’s a safe reset?",
+      "back": "Stop, re-orient with major landmarks (e.g., inferior epigastrics, vas, gonadal vessels), then resume in the correct plane."
+    },
+    {
+      "id": "f3",
+      "type": "text",
+      "front": "This module prioritizes practicing:",
+      "back": "Action selection from anatomy (not exhaustive naming)."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "q": "The dominant skill trained by Yasukawa’s module is:",
+      "choices": [
+        "Triangle naming",
+        "Plane mechanics theory",
+        "Action selection from anatomy cues",
+        "Mesh sizing"
+      ],
+      "answerIndex": 2,
+      "explanation": "This is the anatomy–technique interface module."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "q": "A safe response when anatomy is unclear is to:",
+      "choices": [
+        "Increase energy use to speed up",
+        "Stop and re-orient using landmarks",
+        "Ignore it and proceed to fixation",
+        "Switch to open approach immediately"
+      ],
+      "answerIndex": 1,
+      "explanation": "Reset and re-orient."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "q": "This module intentionally uses fewer labeling tasks because:",
+      "choices": [
+        "Labeling is impossible",
+        "The goal is decision-making, not naming",
+        "Images are low quality",
+        "Flashcards replace all visuals"
+      ],
+      "answerIndex": 1,
+      "explanation": "Decision drills are the core."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "q": "When asked ‘which maneuver is unsafe here’, the expected reasoning is based on:",
+      "choices": [
+        "Instrument cost",
+        "Anatomic danger zones and proximity to nerves/vessels",
+        "Preference of the surgeon",
+        "Mesh brand"
+      ],
+      "answerIndex": 1,
+      "explanation": "Safety is anatomy-driven."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "q": "The best practice format for this module is:",
+      "choices": [
+        "Slow labeling of every structure",
+        "Rapid scenario prompts like the OR",
+        "Reading long background sections",
+        "Memorizing citation details"
+      ],
+      "answerIndex": 1,
+      "explanation": "OR-style pacing."
+    }
+  ],
+  "wrapUp": {
+    "takeaways": [
+      "Add 3 crisp takeaways here after figures are mapped.",
+      "Keep trainee-facing language concise.",
+      "Use the interactives (not long text) to teach."
+    ],
+    "commonPitfalls": [
+      "Add pitfalls specific to this paper after figure review."
+    ],
+    "nextPaperSlug": "daes-felix-cvmpo"
+  }
+}
