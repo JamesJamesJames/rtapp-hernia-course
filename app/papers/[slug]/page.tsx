@@ -144,8 +144,11 @@ export default function PaperPage() {
             <h1 className="text-xl md:text-2xl font-bold text-slate-900 mb-1">
               {meta.shortTitle}
             </h1>
-            <p className="text-sm text-slate-500">
-              {meta.authors.join(', ')} &middot; {meta.journal} ({meta.year})
+            <p className="text-sm text-slate-500 line-clamp-2">
+              {meta.fullTitle}
+            </p>
+            <p className="text-xs text-slate-400 mt-1">
+              {meta.journal} ({meta.year})
             </p>
           </div>
 
