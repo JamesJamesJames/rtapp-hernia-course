@@ -1,11 +1,11 @@
 {
   "title": "Posterior Groin Anatomy for Inguinal Hernia Repair",
   "subtitle": "Evidence-based learning from landmark publications",
-  "description": "Master the posterior view of the groin through six carefully curated papers. Each module builds on the last, taking you from spatial orientation to intraoperative decision-making.",
+  "description": "Master the posterior view of the groin through six carefully curated papers. Each module offers a unique perspective on anatomy and technique for laparoscopic and robotic inguinal hernia repair.",
   "papers": [
     {
       "slug": "furtado",
-      "shortTitle": "Spatial Orientation",
+      "shortTitle": "Furtado et al. — Inverted Y & Five Triangles",
       "fullTitle": "Anatomical landmarks in robotic-assisted transabdominal preperitoneal inguinal hernia repair",
       "authors": ["Furtado M", "Claus CMP", "Cavazzola LT", "et al."],
       "year": 2019,
@@ -19,7 +19,7 @@
     },
     {
       "slug": "yang",
-      "shortTitle": "Planes & Fascia",
+      "shortTitle": "Yang et al. — Preperitoneal Spaces & Fascial Planes",
       "fullTitle": "Fascial planes of the groin and their application to robotic transabdominal preperitoneal inguinal hernia repair",
       "authors": ["Yang XF", "Liu JL"],
       "year": 2020,
@@ -28,12 +28,12 @@
       "bestFor": "Understanding tissue planes and dissection mechanics",
       "uniqueFeatures": ["Fascial layer anatomy", "Plane-based dissection", "Surgical technique correlation"],
       "estimatedMinutes": 30,
-      "prerequisite": "furtado",
+      "prerequisite": null,
       "pedagogicFocus": "planes-mechanics"
     },
     {
       "slug": "yasukawa",
-      "shortTitle": "Anatomy to Action",
+      "shortTitle": "Yasukawa et al. — Crucial Anatomy & Technical Cues",
       "fullTitle": "Anatomical landmarks and intraoperative decisions in laparoscopic transabdominal preperitoneal repair",
       "authors": ["Yasukawa D", "Aisu Y", "Hori T"],
       "year": 2020,
@@ -42,12 +42,12 @@
       "bestFor": "Connecting anatomical knowledge to surgical decisions",
       "uniqueFeatures": ["Decision algorithms", "Landmark-based navigation", "Safety corridors"],
       "estimatedMinutes": 35,
-      "prerequisite": "yang",
+      "prerequisite": null,
       "pedagogicFocus": "decision-making"
     },
     {
       "slug": "daes-felix",
-      "shortTitle": "Critical View",
+      "shortTitle": "Daes & Felix — Critical View of the MPO",
       "fullTitle": "Critical view of the myopectineal orifice: A unified anatomical concept for inguinal hernia repair",
       "authors": ["Daes J", "Felix E"],
       "year": 2017,
@@ -56,12 +56,12 @@
       "bestFor": "Establishing the safety endpoint for dissection",
       "uniqueFeatures": ["Binary safety check", "Critical view concept", "Standardized endpoint"],
       "estimatedMinutes": 20,
-      "prerequisite": "yasukawa",
+      "prerequisite": null,
       "pedagogicFocus": "critical-view"
     },
     {
       "slug": "claus",
-      "shortTitle": "10 Golden Rules",
+      "shortTitle": "Claus et al. — Ten Golden Rules of the MPO",
       "fullTitle": "Ten golden rules for a safe MIS inguinal hernia repair using a new anatomical concept",
       "authors": ["Claus CMP", "Furtado M", "Malcher F", "et al."],
       "year": 2020,
@@ -70,12 +70,12 @@
       "bestFor": "Memorizing actionable safety guidelines",
       "uniqueFeatures": ["10 memorable rules", "Step-by-step safety", "Failure mode prevention"],
       "estimatedMinutes": 40,
-      "prerequisite": "daes-felix",
+      "prerequisite": null,
       "pedagogicFocus": "rule-based-safety"
     },
     {
       "slug": "ramser",
-      "shortTitle": "Dynamic Anatomy",
+      "shortTitle": "Ramser et al. — rTAPP Video-Based Anatomy",
       "fullTitle": "Step-by-step approach to robotic transabdominal preperitoneal inguinal hernia repair",
       "authors": ["Ramser M", "Jang J", "Desai NN"],
       "year": 2023,
@@ -84,7 +84,7 @@
       "bestFor": "Seeing anatomy unfold during the procedure",
       "uniqueFeatures": ["Video-based learning", "Step sequencing", "Dynamic visualization"],
       "estimatedMinutes": 45,
-      "prerequisite": "claus",
+      "prerequisite": null,
       "pedagogicFocus": "dynamic-procedural"
     }
   ]

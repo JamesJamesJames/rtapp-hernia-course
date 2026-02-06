@@ -2,7 +2,7 @@
 
 import { useState, useRef, useCallback, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { X, ZoomIn, ZoomOut, RotateCcw, ChevronLeft, ChevronRight } from 'lucide-react';
+import { X, ZoomIn, ZoomOut, RotateCcw, ChevronLeft, ChevronRight, ImageOff } from 'lucide-react';
 import { Figure } from '@/types/paper';
 import { getFigurePath } from '@/lib/content';
 
@@ -10,6 +10,50 @@ interface FigureGalleryProps {
   figures: Figure[];
   slug: string;
   onFigureView?: (figureId: string) => void;
+}
+
+// Placeholder component for missing images
+function FigurePlaceholder({ caption, path }: { caption: string; path: string }) {
+  return (
+    <div className="w-full h-full flex flex-col items-center justify-center bg-gradient-to-br from-slate-100 to-slate-200 p-4">
+      <ImageOff className="w-12 h-12 text-slate-400 mb-3" />
+      <p className="text-slate-600 text-sm font-medium text-center mb-2 line-clamp-2">
+        {caption}
+      </p>
+      <p className="text-slate-400 text-xs text-center break-all">
+        {path}
+      </p>
+    </div>
+  );
+}
+
+// Image with fallback component
+function FigureImage({
+  src,
+  alt,
+  caption,
+  className,
+}: {
+  src: string;
+  alt: string;
+  caption: string;
+  className?: string;
+}) {
+  const [hasError, setHasError] = useState(false);
+
+  if (hasError) {
+    return <FigurePlaceholder caption={caption} path={src} />;
+  }
+
+  return (
+    <img
+      src={src}
+      alt={alt}
+      className={className}
+      loading="lazy"
+      onError={() => setHasError(true)}
+    />
+  );
 }
 
 export function FigureGallery({ figures, slug, onFigureView }: FigureGalleryProps) {
@@ -56,30 +100,33 @@ export function FigureGallery({ figures, slug, onFigureView }: FigureGalleryProp
     <>
       {/* Thumbnail Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-        {figures.map((figure, index) => (
-          <button
-            key={figure.id}
-            onClick={() => handleOpen(index)}
-            className="group relative aspect-[4/3] overflow-hidden rounded-lg bg-gray-100 border border-gray-200 hover:border-blue-500 transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500"
-          >
-            <img
-              src={getFigurePath(slug, figure.filename)}
-              alt={figure.caption}
-              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-              loading="lazy"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
-              <div className="absolute bottom-0 left-0 right-0 p-3">
-                <p className="text-white text-sm font-medium line-clamp-2">
-                  {figure.caption}
-                </p>
+        {figures.map((figure, index) => {
+          const figurePath = getFigurePath(slug, figure.filename);
+          return (
+            <button
+              key={figure.id}
+              onClick={() => handleOpen(index)}
+              className="group relative aspect-[4/3] overflow-hidden rounded-lg bg-gray-100 border border-gray-200 hover:border-blue-500 transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500"
+            >
+              <FigureImage
+                src={figurePath}
+                alt={figure.caption}
+                caption={figure.caption}
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+                <div className="absolute bottom-0 left-0 right-0 p-3">
+                  <p className="text-white text-sm font-medium line-clamp-2">
+                    {figure.caption}
+                  </p>
+                </div>
               </div>
-            </div>
-            <div className="absolute top-2 right-2 bg-black/50 text-white text-xs px-2 py-1 rounded">
-              {index + 1}/{figures.length}
-            </div>
-          </button>
-        ))}
+              <div className="absolute top-2 right-2 bg-black/50 text-white text-xs px-2 py-1 rounded">
+                {index + 1}/{figures.length}
+              </div>
+            </button>
+          );
+        })}
       </div>
 
       {/* Lightbox Modal */}
@@ -117,13 +164,14 @@ function FigureLightbox({
   onNext,
 }: FigureLightboxProps) {
   const figure = figures[currentIndex];
+  const figurePath = getFigurePath(slug, figure.filename);
   const containerRef = useRef<HTMLDivElement>(null);
-  const imageRef = useRef<HTMLImageElement>(null);
 
   const [scale, setScale] = useState(1);
   const [position, setPosition] = useState({ x: 0, y: 0 });
   const [isDragging, setIsDragging] = useState(false);
   const [dragStart, setDragStart] = useState({ x: 0, y: 0 });
+  const [imageError, setImageError] = useState(false);
 
   // Touch state for pinch-to-zoom
   const [initialPinchDistance, setInitialPinchDistance] = useState<number | null>(null);
@@ -137,6 +185,7 @@ function FigureLightbox({
   // Reset on figure change
   useEffect(() => {
     resetTransform();
+    setImageError(false);
   }, [currentIndex, resetTransform]);
 
   // Keyboard navigation
@@ -330,13 +379,19 @@ function FigureLightbox({
             transition: isDragging ? 'none' : 'transform 0.2s ease-out',
           }}
         >
-          <img
-            ref={imageRef}
-            src={getFigurePath(slug, figure.filename)}
-            alt={figure.caption}
-            className="max-w-full max-h-full object-contain"
-            draggable={false}
-          />
+          {imageError ? (
+            <div className="max-w-md p-8">
+              <FigurePlaceholder caption={figure.caption} path={figurePath} />
+            </div>
+          ) : (
+            <img
+              src={figurePath}
+              alt={figure.caption}
+              className="max-w-full max-h-full object-contain"
+              draggable={false}
+              onError={() => setImageError(true)}
+            />
+          )}
         </div>
 
         {/* Navigation Arrows */}
