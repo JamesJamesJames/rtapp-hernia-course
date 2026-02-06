@@ -1,0 +1,77 @@
+{
+  "slug": "yang-planes",
+  "figures": [
+    {
+      "id": "fig01",
+      "filename": "yang-planes_fig01.jpeg",
+      "originalPath": "YANG - ANATOMY ESSENTIALS/page1_image1.jpeg",
+      "pageImage": "page1_image1.jpeg"
+    },
+    {
+      "id": "fig02",
+      "filename": "yang-planes_fig02.jpeg",
+      "originalPath": "YANG - ANATOMY ESSENTIALS/page2_image1.jpeg",
+      "pageImage": "page2_image1.jpeg"
+    },
+    {
+      "id": "fig03",
+      "filename": "yang-planes_fig03.jpeg",
+      "originalPath": "YANG - ANATOMY ESSENTIALS/page3_image2.jpeg",
+      "pageImage": "page3_image2.jpeg"
+    },
+    {
+      "id": "fig04",
+      "filename": "yang-planes_fig04.jpeg",
+      "originalPath": "YANG - ANATOMY ESSENTIALS/page3_image3.jpeg",
+      "pageImage": "page3_image3.jpeg"
+    },
+    {
+      "id": "fig05",
+      "filename": "yang-planes_fig05.jpeg",
+      "originalPath": "YANG - ANATOMY ESSENTIALS/page4_image1.jpeg",
+      "pageImage": "page4_image1.jpeg"
+    },
+    {
+      "id": "fig06",
+      "filename": "yang-planes_fig06.jpeg",
+      "originalPath": "YANG - ANATOMY ESSENTIALS/page4_image2.jpeg",
+      "pageImage": "page4_image2.jpeg"
+    },
+    {
+      "id": "fig07",
+      "filename": "yang-planes_fig07.jpeg",
+      "originalPath": "YANG - ANATOMY ESSENTIALS/page5_image1.jpeg",
+      "pageImage": "page5_image1.jpeg"
+    },
+    {
+      "id": "fig08",
+      "filename": "yang-planes_fig08.jpeg",
+      "originalPath": "YANG - ANATOMY ESSENTIALS/page5_image2.jpeg",
+      "pageImage": "page5_image2.jpeg"
+    },
+    {
+      "id": "fig09",
+      "filename": "yang-planes_fig09.jpeg",
+      "originalPath": "YANG - ANATOMY ESSENTIALS/page5_image3.jpeg",
+      "pageImage": "page5_image3.jpeg"
+    },
+    {
+      "id": "fig10",
+      "filename": "yang-planes_fig10.jpeg",
+      "originalPath": "YANG - ANATOMY ESSENTIALS/page6_image1.jpeg",
+      "pageImage": "page6_image1.jpeg"
+    },
+    {
+      "id": "fig11",
+      "filename": "yang-planes_fig11.jpeg",
+      "originalPath": "YANG - ANATOMY ESSENTIALS/page6_image2.jpeg",
+      "pageImage": "page6_image2.jpeg"
+    },
+    {
+      "id": "fig12",
+      "filename": "yang-planes_fig12.jpeg",
+      "originalPath": "YANG - ANATOMY ESSENTIALS/page6_image3.jpeg",
+      "pageImage": "page6_image3.jpeg"
+    }
+  ]
+}
