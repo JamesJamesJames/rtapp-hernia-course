@@ -1,125 +1,115 @@
 {
-  "generated": "2026-02-05",
-  "purposeStatement": "Interactive learning for laparoscopic inguinal anatomy — built from high-yield peer‑reviewed papers. Choose a paper to review key concepts, then practice with figure-based flashcards and labeling.",
+  "title": "Posterior Groin Anatomy",
+  "subtitle": "For Laparoscopic & Robotic Inguinal Hernia Repair",
+  "description": "Interactive learning for laparoscopic inguinal anatomy — built from high-yield peer‑reviewed papers. Choose a paper to review key concepts, then practice with figure-based flashcards and labeling.",
   "papers": [
     {
-      "slug": "furtado-inverted-y",
-      "cardTitle": "Inverted Y & Five Triangles: Posterior Groin Anatomy",
-      "estimatedMinutes": 25,
+      "slug": "furtado",
+      "shortTitle": "Furtado",
+      "fullTitle": "Systemization of laparoscopic inguinal hernia repair (TAPP) based on a new anatomical concept: inverted Y and five triangles",
+      "authors": ["Furtado M", "Claus C", "Malcher F", "Cavazzola LT", "Felix E"],
+      "year": 2019,
+      "journal": "Surg Endosc",
+      "pubmedId": "30758474",
       "bestFor": "Rapid orientation to posterior inguinal anatomy after peritoneal opening in TAPP/rTAPP.",
-      "features": [
+      "uniqueFeatures": [
         "Geometric framework",
         "Danger/dissection zones",
         "Schematic overlays"
       ],
-      "thumbSrc": "/assets/papers/furtado-inverted-y/thumb.jpeg",
-      "tags": [
-        "tapp",
-        "rtapp",
-        "orientation",
-        "inverted-y",
-        "five-triangles",
-        "danger-zones"
-      ]
+      "estimatedMinutes": 25,
+      "prerequisite": null,
+      "pedagogicFocus": "spatial-orientation"
     },
     {
-      "slug": "yang-planes",
-      "cardTitle": "Preperitoneal Spaces and Fascial Planes",
-      "estimatedMinutes": 25,
+      "slug": "yang",
+      "shortTitle": "Yang",
+      "fullTitle": "Anatomy essentials for laparoscopic inguinal hernia repair",
+      "authors": ["Yang XF", "Liu JL"],
+      "year": 2016,
+      "journal": "Ann Transl Med",
+      "pubmedId": "27826575",
       "bestFor": "Understanding Retzius vs Bogros spaces and why correct planes matter during dissection.",
-      "features": [
+      "uniqueFeatures": [
         "Fascial layers & spaces",
         "Parietalization basis",
         "Diagram-driven"
       ],
-      "thumbSrc": "/assets/papers/yang-planes/thumb.jpeg",
-      "tags": [
-        "tapp",
-        "tep",
-        "planes",
-        "retzius",
-        "bogros",
-        "parietalization",
-        "fascia"
-      ]
+      "estimatedMinutes": 25,
+      "prerequisite": null,
+      "pedagogicFocus": "planes-mechanics"
     },
     {
-      "slug": "yasukawa-cues",
-      "cardTitle": "Anatomic Landmarks and Technical Cues in TAPP",
-      "estimatedMinutes": 25,
+      "slug": "yasukawa",
+      "shortTitle": "Yasukawa",
+      "fullTitle": "Crucial anatomy and technical cues for laparoscopic transabdominal preperitoneal repair: Advanced manipulation for groin hernias in adults",
+      "authors": ["Yasukawa D", "Aisu Y", "Hori T"],
+      "year": 2020,
+      "journal": "World J Gastrointest Surg",
+      "pubmedId": "32821340",
       "bestFor": "Linking visible anatomic landmarks to intraoperative decisions during TAPP.",
-      "features": [
-        "‘If you see X, do Y’",
+      "uniqueFeatures": [
+        "'If you see X, do Y'",
         "Avoid technical errors",
         "Operative cues"
       ],
-      "thumbSrc": "/assets/papers/yasukawa-cues/thumb.png",
-      "tags": [
-        "tapp",
-        "technical-cues",
-        "decision-making",
-        "pitfalls",
-        "landmarks"
-      ]
+      "estimatedMinutes": 25,
+      "prerequisite": null,
+      "pedagogicFocus": "decision-making"
     },
     {
-      "slug": "daes-felix-cvmpo",
-      "cardTitle": "Critical View of the Myopectineal Orifice (CV-MPO)",
-      "estimatedMinutes": 15,
+      "slug": "daes-felix",
+      "shortTitle": "Daes & Felix",
+      "fullTitle": "Critical View of the Myopectineal Orifice",
+      "authors": ["Daes J", "Felix E"],
+      "year": 2017,
+      "journal": "Ann Surg",
+      "pubmedId": "27984213",
       "bestFor": "Defining the minimum anatomic exposure required before mesh placement.",
-      "features": [
+      "uniqueFeatures": [
         "Binary endpoint",
         "Safety focus",
         "Concept-defining"
       ],
-      "thumbSrc": "/assets/papers/daes-felix-cvmpo/thumb.jpg",
-      "tags": [
-        "cv-mpo",
-        "standardization",
-        "safety-endpoint",
-        "tapp",
-        "rtapp"
-      ]
+      "estimatedMinutes": 15,
+      "prerequisite": null,
+      "pedagogicFocus": "critical-view"
     },
     {
-      "slug": "claus-10-rules",
-      "cardTitle": "Ten Golden Rules of the Myopectineal Orifice",
-      "estimatedMinutes": 15,
+      "slug": "claus",
+      "shortTitle": "Claus",
+      "fullTitle": "Ten golden rules for a safe MIS inguinal hernia repair using a new anatomical concept as a guide",
+      "authors": ["Claus C", "Furtado M", "Malcher F", "Cavazzola LT", "Felix E"],
+      "year": 2020,
+      "journal": "Surg Endosc",
+      "pubmedId": "32076858",
       "bestFor": "Memorizing anatomy-based principles to reduce complications and recurrence.",
-      "features": [
+      "uniqueFeatures": [
         "Rule-based framework",
         "Anatomy + safety",
         "OR recall"
       ],
-      "thumbSrc": "/assets/papers/claus-10-rules/thumb.jpeg",
-      "tags": [
-        "rules",
-        "safety",
-        "mesh",
-        "three-zones",
-        "tapp",
-        "tep",
-        "rtapp"
-      ]
+      "estimatedMinutes": 15,
+      "prerequisite": null,
+      "pedagogicFocus": "rule-based-safety"
     },
     {
-      "slug": "ramser-video",
-      "cardTitle": "Posterior Groin Anatomy During rTAPP (Video)",
-      "estimatedMinutes": 40,
+      "slug": "ramser",
+      "shortTitle": "Ramser",
+      "fullTitle": "Robotic inguinal hernia repair (r-TAPP). Video report and results of a series of 302 hernia operations",
+      "authors": ["Ramser M"],
+      "year": 2021,
+      "journal": "Chirurg",
+      "pubmedId": "34185126",
       "bestFor": "Seeing posterior inguinal anatomy unfold in real operative sequence.",
-      "features": [
+      "uniqueFeatures": [
         "Intraop video",
         "Stepwise exposure",
         "Depth/tissue behavior"
       ],
-      "thumbSrc": "/assets/papers/ramser-video/thumb.jpeg",
-      "tags": [
-        "rtapp",
-        "video",
-        "sequencing",
-        "steps",
-        "robotic"
-      ]
+      "estimatedMinutes": 40,
+      "prerequisite": null,
+      "pedagogicFocus": "dynamic-procedural"
     }
   ]
 }

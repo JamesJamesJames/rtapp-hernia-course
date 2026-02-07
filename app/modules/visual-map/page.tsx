@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link';
-import { ChevronRight, ChevronLeft, Lock, CheckCircle, Eye } from 'lucide-react';
+import { ChevronRight, ChevronLeft, CheckCircle, Eye } from 'lucide-react';
 import { useCourseStore } from '@/lib/stores/courseStore';
 
 const lessons = [
@@ -123,31 +123,22 @@ export default function VisualMapPage() {
 
           {lessons.map((lesson, index) => {
             const isCompleted = completedLessons.includes(lesson.id);
-            const isLocked = index > 0 && !completedLessons.includes(lessons[index - 1].id);
 
             return (
               <Link
                 key={lesson.id}
-                href={isLocked ? '#' : `/modules/visual-map/${lesson.id}`}
-                className={`block bg-white rounded-xl shadow-sm overflow-hidden transition-all ${
-                  isLocked
-                    ? 'opacity-60 cursor-not-allowed'
-                    : 'hover:shadow-md hover:border-blue-300'
-                } border border-gray-200`}
+                href={`/modules/visual-map/${lesson.id}`}
+                className="block bg-white rounded-xl shadow-sm overflow-hidden transition-all hover:shadow-md hover:border-blue-300 border border-gray-200"
               >
                 <div className="p-6">
                   <div className="flex items-start gap-4">
                     <div className={`w-12 h-12 rounded-lg flex items-center justify-center shrink-0 ${
                       isCompleted
                         ? 'bg-green-100 text-green-600'
-                        : isLocked
-                        ? 'bg-gray-100 text-gray-400'
                         : 'bg-blue-100 text-blue-600'
                     }`}>
                       {isCompleted ? (
                         <CheckCircle className="w-6 h-6" />
-                      ) : isLocked ? (
-                        <Lock className="w-6 h-6" />
                       ) : (
                         <Eye className="w-6 h-6" />
                       )}
@@ -178,9 +169,7 @@ export default function VisualMapPage() {
                       </div>
                     </div>
 
-                    {!isLocked && (
-                      <ChevronRight className="w-5 h-5 text-gray-400 shrink-0" />
-                    )}
+                    <ChevronRight className="w-5 h-5 text-gray-400 shrink-0" />
                   </div>
                 </div>
               </Link>

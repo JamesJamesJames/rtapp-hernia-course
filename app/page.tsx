@@ -90,7 +90,6 @@ export default function HomePage() {
             const progress = papers[paper.slug];
             const isComplete = progress?.completedAt != null;
             const isStarted = progress?.started;
-            const isLocked = paper.prerequisite && !papers[paper.prerequisite]?.completedAt;
             const completionPct = progress?.sectionsCompleted
               ? Math.round((progress.sectionsCompleted.length / 6) * 100)
               : 0;
@@ -103,19 +102,13 @@ export default function HomePage() {
                 transition={{ delay: index * 0.1 }}
               >
                 <Link
-                  href={isLocked ? '#' : `/papers/${paper.slug}`}
-                  className={clsx(
-                    'block',
-                    isLocked && 'cursor-not-allowed'
-                  )}
-                  onClick={(e) => isLocked && e.preventDefault()}
+                  href={`/papers/${paper.slug}`}
+                  className="block"
                 >
                   <div
                     className={clsx(
                       'bg-white rounded-xl border shadow-sm overflow-hidden transition-all',
-                      isLocked
-                        ? 'border-slate-200 opacity-60'
-                        : 'border-slate-200 hover:border-blue-300 hover:shadow-md',
+                      'border-slate-200 hover:border-blue-300 hover:shadow-md',
                       isComplete && 'border-green-300 bg-green-50/30'
                     )}
                   >
@@ -191,19 +184,9 @@ export default function HomePage() {
                                 <span className="text-xs text-slate-500">{completionPct}%</span>
                               </div>
                             )}
-                            {!isLocked && (
-                              <ChevronRight className="w-5 h-5 text-slate-400" />
-                            )}
+                            <ChevronRight className="w-5 h-5 text-slate-400" />
                           </div>
                         </div>
-
-                        {/* Locked message */}
-                        {isLocked && (
-                          <div className="mt-3 text-sm text-amber-600 flex items-center gap-1.5">
-                            <span className="inline-block w-1.5 h-1.5 bg-amber-500 rounded-full" />
-                            Complete &ldquo;{paperIndex.papers.find((p) => p.slug === paper.prerequisite)?.shortTitle}&rdquo; first
-                          </div>
-                        )}
                       </div>
                     </div>
                   </div>
