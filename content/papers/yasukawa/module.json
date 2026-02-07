@@ -1,29 +1,106 @@
 {
   "slug": "yasukawa",
   "summary": {
-    "title": "Paper in 3 Minutes",
-    "keyPoints": [
-      "Anatomical landmarks directly inform intraoperative decisions at each step",
-      "The iliopubic tract defines the inferior boundary of safe dissection",
-      "Parietalization of the cord requires systematic landmark identification",
-      "Decision algorithms based on landmark visibility improve safety",
-      "Each anatomical structure has a specific 'action implication' during surgery"
-    ],
-    "clinicalPearl": "If you can't identify the structure, don't proceed. Uncertainty demands pause and re-evaluation."
+    "title": "Paper in 5 Minutes",
+    "sections": [
+      {
+        "heading": "WHY THIS PAPER EXISTS",
+        "content": "This paper links anatomic landmarks to operative decision-making, emphasizing error prevention rather than exhaustive anatomy."
+      },
+      {
+        "heading": "CORE ANATOMIC APPROACH",
+        "content": "Visible landmarks trigger specific actions or restraint. The emphasis is on recognizing when to proceed and when to stop."
+      },
+      {
+        "heading": "INTRAOPERATIVE APPLICATION",
+        "content": "Confirm location before advancing dissection. Use landmarks to determine safe traction and direction. Avoid aggressive dissection in known danger zones."
+      },
+      {
+        "heading": "COMMON FAILURE MODES",
+        "content": "Proceeding without confirming location. Misinterpreting landmarks due to incomplete exposure. Underestimating peritoneal injury consequences."
+      },
+      {
+        "heading": "HOW TO USE THIS MODULE",
+        "content": "Approach this module as a decision-making drill: identify, decide, and reassess."
+      }
+    ]
   },
   "figures": [
     {
       "id": "yasukawa_fig01",
-      "filename": "yasukawa_fig01.jpg",
+      "filename": "yasukawa-cues_fig01.png",
       "caption": "Landmark-to-action decision map",
       "description": "Flow chart showing how identification of each landmark leads to specific surgical decisions",
       "annotations": []
     },
     {
       "id": "yasukawa_fig02",
-      "filename": "yasukawa_fig02.jpg",
+      "filename": "yasukawa-cues_fig02.png",
       "caption": "The iliopubic tract as a safety boundary",
       "description": "The iliopubic tract marks the inferior limit of safe dissection in the lateral region",
+      "annotations": []
+    },
+    {
+      "id": "yasukawa_fig03",
+      "filename": "yasukawa-cues_fig03.png",
+      "caption": "Peritoneal incision landmarks",
+      "description": "Key anatomic landmarks guiding the initial peritoneal incision",
+      "annotations": []
+    },
+    {
+      "id": "yasukawa_fig04",
+      "filename": "yasukawa-cues_fig04.png",
+      "caption": "Medial dissection landmarks",
+      "description": "Anatomic structures encountered during medial dissection and their action implications",
+      "annotations": []
+    },
+    {
+      "id": "yasukawa_fig05",
+      "filename": "yasukawa-cues_fig05.png",
+      "caption": "Lateral dissection landmarks",
+      "description": "Structures guiding lateral dissection boundaries and safe traction direction",
+      "annotations": []
+    },
+    {
+      "id": "yasukawa_fig06",
+      "filename": "yasukawa-cues_fig06.png",
+      "caption": "Cord parietalization technique",
+      "description": "Systematic approach to parietalization guided by landmark identification",
+      "annotations": []
+    },
+    {
+      "id": "yasukawa_fig07",
+      "filename": "yasukawa-cues_fig07.png",
+      "caption": "Cooper's ligament identification",
+      "description": "Recognition of Cooper's ligament as a safe fixation point and medial dissection endpoint",
+      "annotations": []
+    },
+    {
+      "id": "yasukawa_fig08",
+      "filename": "yasukawa-cues_fig08.png",
+      "caption": "Danger zone boundaries",
+      "description": "Anatomic boundaries of the Triangle of Doom and Triangle of Pain",
+      "annotations": []
+    },
+    {
+      "id": "yasukawa_fig09",
+      "filename": "yasukawa-cues_fig09.png",
+      "caption": "Hernia sac management",
+      "description": "Landmark-guided approach to indirect hernia sac reduction",
+      "annotations": []
+    },
+    {
+      "id": "yasukawa_fig10",
+      "filename": "yasukawa-cues_fig10.png",
+      "caption": "Mesh positioning landmarks",
+      "description": "Anatomic landmarks confirming adequate mesh positioning",
+      "annotations": []
+    },
+    {
+      "id": "yasukawa_fig11",
+      "filename": "yasukawa-cues_fig11.png",
+      "caption": "Peritoneal closure technique",
+      "description": "Technique for peritoneal re-approximation following mesh placement",
       "annotations": []
     }
   ],

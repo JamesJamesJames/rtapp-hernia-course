@@ -1,50 +1,57 @@
 {
   "slug": "ramser",
   "summary": {
-    "title": "Paper in 3 Minutes",
-    "keyPoints": [
-      "The rTAPP procedure follows a reproducible sequence of steps",
-      "Video-based learning shows dynamic anatomy as it unfolds during surgery",
-      "Each procedural step builds on proper execution of the previous step",
-      "Tissue handling and plane development are demonstrated in motion",
-      "Understanding the sequence prevents disorientation during the case"
-    ],
-    "clinicalPearl": "Surgical anatomy is dynamic. Structures move and change appearance with dissection - video captures this in a way static images cannot."
+    "title": "Paper in 5 Minutes",
+    "sections": [
+      {
+        "heading": "WHY THIS PAPER EXISTS",
+        "content": "Static images do not convey how anatomy appears over time. This paper uses video to teach temporal sequencing."
+      },
+      {
+        "heading": "CORE CONCEPT",
+        "content": "Recognizing what appears next reduces cognitive load and improves safety."
+      },
+      {
+        "heading": "INTRAOPERATIVE APPLICATION",
+        "content": "Pause, identify structures, and anticipate upcoming landmarks."
+      },
+      {
+        "heading": "COMMON FAILURE MODES",
+        "content": "Passive viewing without active identification."
+      },
+      {
+        "heading": "HOW TO USE THIS MODULE",
+        "content": "This module is about recognition, not speed."
+      }
+    ]
   },
   "figures": [
     {
       "id": "ramser_fig01",
-      "filename": "ramser_fig01.jpg",
+      "filename": "ramser-video_fig01.jpeg",
       "caption": "Step 1: Initial peritoneal incision and entry into preperitoneal space",
       "description": "The lateral-to-medial peritoneal incision begins the development of the preperitoneal flap",
       "annotations": []
     },
     {
       "id": "ramser_fig02",
-      "filename": "ramser_fig02.jpg",
+      "filename": "ramser-video_fig02.png",
       "caption": "Step 2: Identification of the inverted-Y landmarks",
       "description": "Progressive dissection reveals the vas deferens and spermatic vessels",
       "annotations": []
     },
     {
       "id": "ramser_fig03",
-      "filename": "ramser_fig03.jpg",
+      "filename": "ramser-video_fig03.png",
       "caption": "Step 3: Parietalization of the cord",
       "description": "Separation of cord structures from the peritoneum",
       "annotations": []
     },
     {
       "id": "ramser_fig04",
-      "filename": "ramser_fig04.jpg",
-      "caption": "Step 4: Achievement of Critical View",
-      "description": "All four quadrants of the MPO are visualized",
-      "annotations": []
-    },
-    {
-      "id": "ramser_fig05",
-      "filename": "ramser_fig05.jpg",
-      "caption": "Step 5: Mesh placement and positioning",
-      "description": "Proper mesh orientation and coverage of the MPO",
+      "filename": "ramser-video_fig04.jpeg",
+      "caption": "Step 4: Achievement of Critical View and mesh placement",
+      "description": "All four quadrants of the MPO are visualized, followed by mesh positioning",
       "annotations": []
     }
   ],

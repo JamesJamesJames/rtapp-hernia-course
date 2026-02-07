@@ -40,10 +40,14 @@ export interface PaperModule {
   wrapup: Wrapup;
 }
 
+export interface SummarySection {
+  heading: string;
+  content: string;
+}
+
 export interface ModuleSummary {
   title: string;
-  keyPoints: string[];
-  clinicalPearl: string;
+  sections: SummarySection[];
 }
 
 export interface Figure {

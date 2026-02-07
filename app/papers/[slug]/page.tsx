@@ -28,7 +28,7 @@ import clsx from 'clsx';
 type Tab = SectionType;
 
 const tabs: { id: Tab; label: string; icon: React.ReactNode }[] = [
-  { id: 'summary', label: '3 Minutes', icon: <FileText className="w-4 h-4" /> },
+  { id: 'summary', label: '5 Minutes', icon: <FileText className="w-4 h-4" /> },
   { id: 'figures', label: 'Figures', icon: <ImageIcon className="w-4 h-4" /> },
   { id: 'activities', label: 'Activities', icon: <Lightbulb className="w-4 h-4" /> },
   { id: 'flashcards', label: 'Flashcards', icon: <CreditCard className="w-4 h-4" /> },
@@ -141,8 +141,8 @@ export default function PaperPage() {
 
           {/* Title */}
           <div className="pb-4">
-            <h1 className="text-xl md:text-2xl font-bold text-slate-900 mb-1">
-              {meta.shortTitle}
+            <h1 className="text-lg md:text-xl font-bold text-slate-900 mb-1 leading-tight">
+              {meta.fullTitle}
             </h1>
             <p className="text-sm text-slate-500">
               {meta.authors.join(', ')} &middot; {meta.journal} ({meta.year})
@@ -235,28 +235,16 @@ function SummarySection({ module }: { module: any }) {
         {module.summary.title}
       </h2>
 
-      <div className="space-y-4 mb-8">
-        {module.summary.keyPoints.map((point: string, index: number) => (
-          <div key={index} className="flex gap-3">
-            <div className="w-6 h-6 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center text-sm font-medium flex-shrink-0 mt-0.5">
-              {index + 1}
-            </div>
-            <p className="text-slate-700">{point}</p>
+      <div className="space-y-6">
+        {module.summary.sections.map((section: { heading: string; content: string }, index: number) => (
+          <div key={index} className="bg-white border border-slate-200 rounded-lg p-5">
+            <h3 className="text-sm font-semibold text-blue-700 uppercase tracking-wide mb-2">
+              {section.heading}
+            </h3>
+            <p className="text-slate-700 leading-relaxed">{section.content}</p>
           </div>
         ))}
       </div>
-
-      {module.summary.clinicalPearl && (
-        <div className="bg-amber-50 border border-amber-200 rounded-lg p-4">
-          <div className="flex items-start gap-3">
-            <Lightbulb className="w-5 h-5 text-amber-600 flex-shrink-0 mt-0.5" />
-            <div>
-              <h3 className="font-semibold text-amber-900 mb-1">Clinical Pearl</h3>
-              <p className="text-amber-800">{module.summary.clinicalPearl}</p>
-            </div>
-          </div>
-        </div>
-      )}
     </div>
   );
 }
@@ -426,7 +414,7 @@ function WrapupSection({ module, nextPaper }: { module: any; nextPaper: any }) {
             href={`/papers/${module.wrapup.nextPaper.slug}`}
             className="inline-flex items-center gap-2 bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors"
           >
-            Next: {nextPaper.shortTitle}
+            Next: {nextPaper.fullTitle}
             <ChevronRight className="w-4 h-4" />
           </Link>
         </div>

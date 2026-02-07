@@ -187,19 +187,13 @@ export default function VisualMapPage() {
             Module 0: Orientation
           </Link>
 
-          {completedLessons.length === lessons.length ? (
-            <Link
-              href="/modules/rules"
-              className="flex items-center gap-2 bg-blue-600 text-white px-6 py-2 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
-            >
-              Continue to Module 2
-              <ChevronRight className="w-5 h-5" />
-            </Link>
-          ) : (
-            <span className="text-sm text-gray-500">
-              Complete all lessons to unlock Module 2
-            </span>
-          )}
+          <Link
+            href="/modules/rules"
+            className="flex items-center gap-2 bg-blue-600 text-white px-6 py-2 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
+          >
+            Continue to Module 2
+            <ChevronRight className="w-5 h-5" />
+          </Link>
         </div>
       </div>
     </div>

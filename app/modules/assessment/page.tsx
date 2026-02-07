@@ -274,9 +274,9 @@ export default function AssessmentPage() {
           </div>
         </div>
 
-        {/* Prerequisites check */}
+        {/* Progress indicators (informational, not gating) */}
         <div className="bg-white rounded-xl shadow-lg p-6 mb-8">
-          <h2 className="font-semibold text-gray-900 mb-4">Readiness Check</h2>
+          <h2 className="font-semibold text-gray-900 mb-4">Your Progress</h2>
           <div className="space-y-3">
             <div className="flex items-center gap-3">
               <CheckCircle className={`w-5 h-5 ${progress.completedModules.includes(0) ? 'text-green-500' : 'text-gray-300'}`} />

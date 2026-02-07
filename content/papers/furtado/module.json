@@ -1,36 +1,71 @@
 {
   "slug": "furtado",
   "summary": {
-    "title": "Paper in 3 Minutes",
-    "keyPoints": [
-      "The posterior groin is best understood through the inverted-Y landmark formed by the vas deferens and spermatic vessels",
-      "Three anatomical zones help organize dissection: lateral (Zone 1), medial (Zone 2), and central high-risk (Zone 3)",
-      "The inferior epigastric vessels serve as the primary landmark dividing direct from indirect hernia spaces",
-      "Key danger regions include the Triangle of Doom (iliac vessels) and Triangle of Pain (lateral nerves)",
-      "Consistent landmark identification reduces risk of vascular and nerve injury during laparoscopic repair"
-    ],
-    "clinicalPearl": "Always identify the inferior epigastric vessels first - they are your anatomical compass for the entire dissection."
+    "title": "Paper in 5 Minutes",
+    "sections": [
+      {
+        "heading": "WHY THIS PAPER EXISTS",
+        "content": "Posterior groin anatomy is difficult to interpret laparoscopically because multiple critical structures are encountered early, often before the surgeon has a reliable spatial orientation. This paper addresses that problem by proposing a geometric framework that allows rapid orientation after peritoneal opening without requiring exhaustive anatomic identification."
+      },
+      {
+        "heading": "CORE ANATOMIC MODEL",
+        "content": "The central concept is the inverted-Y, defined by the vas deferens medially, the gonadal vessels laterally, and their convergence inferiorly. This configuration divides the posterior groin into five triangles, each with predictable contents and risk characteristics."
+      },
+      {
+        "heading": "INTRAOPERATIVE APPLICATION (TAPP / rTAPP)",
+        "content": "After peritoneal incision, the inferior epigastric vessels establish medial\u2013lateral orientation. Exposure of the vas deferens and gonadal vessels defines the inverted-Y. The five-triangle model guides medial dissection in Retzius, lateral expansion of Bogros, and avoidance of high-risk zones."
+      },
+      {
+        "heading": "COMMON FAILURE MODES",
+        "content": "Incomplete exposure of the inverted-Y results in loss of orientation. Over-dissection in danger triangles increases bleeding and chronic pain risk. Inadequate lateral dissection compromises mesh coverage."
+      },
+      {
+        "heading": "HOW TO USE THIS MODULE",
+        "content": "This module is about orientation, not memorization. Focus on naming triangles, identifying boundaries, and associating zones with relative risk before thinking about technique."
+      }
+    ]
   },
   "figures": [
     {
       "id": "furtado_fig01",
-      "filename": "furtado_fig01.jpg",
+      "filename": "furtado-inverted-y_fig01.jpeg",
       "caption": "Posterior view of the myopectineal orifice showing the inverted-Y configuration",
       "description": "The vas deferens and spermatic vessels form an inverted-Y shape that serves as the central organizing landmark",
       "annotations": []
     },
     {
       "id": "furtado_fig02",
-      "filename": "furtado_fig02.jpg",
+      "filename": "furtado-inverted-y_fig02.jpeg",
       "caption": "Three-zone anatomical division of the posterior inguinal region",
       "description": "Zone 1 (lateral), Zone 2 (medial), and Zone 3 (central) with their respective safety profiles",
       "annotations": []
     },
     {
       "id": "furtado_fig03",
-      "filename": "furtado_fig03.jpg",
+      "filename": "furtado-inverted-y_fig03.jpeg",
       "caption": "Inferior epigastric vessels as the primary anatomical landmark",
       "description": "The IEV divides the direct and indirect hernia spaces and guides mesh placement",
+      "annotations": []
+    },
+    {
+      "id": "furtado_fig04",
+      "filename": "furtado-inverted-y_fig04.jpeg",
+      "caption": "Five triangles of the posterior groin",
+      "description": "Geometric division of the posterior inguinal region into five triangles with predictable contents",
+      "annotations": []
+    },
+    {
+      "id": "furtado_fig05",
+      "filename": "furtado-inverted-y_fig05.jpeg",
+      "caption": "Danger zones: Triangle of Doom and Triangle of Pain",
+      "description": "High-risk zones defined by the inverted-Y framework",
+      "annotations": []
+    },
+    {
+      "id": "furtado_fig06",
+      "filename": "furtado-inverted-y_fig06.jpeg",
+      "caption": "Complete geometric framework applied to the posterior groin",
+      "description": "Schematic overlay integrating the inverted-Y with all five triangles and their clinical significance",
       "annotations": []
     }
   ],
