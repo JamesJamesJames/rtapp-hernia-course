@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
-import { ChevronLeft, ChevronRight, Target, CheckCircle, Lock } from 'lucide-react';
+import { ChevronLeft, ChevronRight, Target, CheckCircle } from 'lucide-react';
 import { LabelingChallenge } from '@/components/learning/LabelingChallenge';
 import { LABELING_CHALLENGES, getChallengesByDifficulty } from '@/lib/data/challenges';
 import { useCourseStore } from '@/lib/stores/courseStore';
