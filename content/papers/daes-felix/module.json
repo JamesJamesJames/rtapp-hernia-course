@@ -1,15 +1,29 @@
 {
   "slug": "daes-felix",
   "summary": {
-    "title": "Paper in 3 Minutes",
-    "keyPoints": [
-      "The Critical View of the Myopectineal Orifice (CV-MPO) is a standardized safety endpoint",
-      "Before mesh placement, all four quadrants of the MPO must be clearly visualized",
-      "The CV-MPO is a binary check: it is either achieved or not achieved",
-      "This concept parallels the Critical View of Safety in cholecystectomy",
-      "Achieving CV-MPO prevents mesh malposition and reduces recurrence"
-    ],
-    "clinicalPearl": "The CV-MPO is pass/fail - if you cannot see all four quadrants clearly, you are not ready for mesh placement."
+    "title": "Paper in 5 Minutes",
+    "sections": [
+      {
+        "heading": "WHY THIS PAPER EXISTS",
+        "content": "This paper defines a binary anatomic endpoint for safe laparoscopic inguinal hernia repair."
+      },
+      {
+        "heading": "CORE CONCEPT",
+        "content": "The Critical View of the MPO specifies the minimum exposure required before mesh placement. It is either achieved or it is not."
+      },
+      {
+        "heading": "INTRAOPERATIVE APPLICATION",
+        "content": "Before mesh placement, confirm all required exposure elements, verify no hernia spaces remain obscured, and ensure the mesh will lie flat."
+      },
+      {
+        "heading": "COMMON FAILURE MODES",
+        "content": "Proceeding based on subjective judgment. Skipping standards in \"easy\" cases."
+      },
+      {
+        "heading": "HOW TO USE THIS MODULE",
+        "content": "Treat the critical view as a mandatory checklist, not a suggestion."
+      }
+    ]
   },
   "figures": [
     {

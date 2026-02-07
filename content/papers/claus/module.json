@@ -1,29 +1,99 @@
 {
   "slug": "claus",
   "summary": {
-    "title": "Paper in 3 Minutes",
-    "keyPoints": [
-      "Ten actionable rules provide a systematic approach to safe rTAPP surgery",
-      "Rules are organized by surgical phase: entry, dissection, mesh placement, fixation, closure",
-      "Each rule addresses a specific failure mode or danger point",
-      "Mnemonic-based learning facilitates recall during surgery",
-      "Adherence to all 10 rules significantly reduces complications"
-    ],
-    "clinicalPearl": "These rules are not guidelines - they are binary requirements. Violating any single rule puts the patient at risk."
+    "title": "Paper in 5 Minutes",
+    "sections": [
+      {
+        "heading": "WHY THIS PAPER EXISTS",
+        "content": "This paper compresses safe laparoscopic inguinal hernia repair into ten anatomy-based rules designed for recall during surgery."
+      },
+      {
+        "heading": "CORE CONCEPT",
+        "content": "Each rule corresponds to a specific anatomic landmark and failure mode."
+      },
+      {
+        "heading": "INTRAOPERATIVE APPLICATION",
+        "content": "Use the rules as preoperative rehearsal and intraoperative checkpoints."
+      },
+      {
+        "heading": "COMMON FAILURE MODES",
+        "content": "Memorizing rules without linking them to anatomy. Failure to apply rules sequentially."
+      },
+      {
+        "heading": "HOW TO USE THIS MODULE",
+        "content": "This module is about recall under pressure."
+      }
+    ]
   },
   "figures": [
     {
       "id": "claus_fig01",
-      "filename": "claus_fig01.jpg",
+      "filename": "claus-10-rules_fig01.jpeg",
       "caption": "The 10 Golden Rules illustrated",
       "description": "Visual summary of all 10 rules with corresponding anatomical landmarks",
       "annotations": []
     },
     {
       "id": "claus_fig02",
-      "filename": "claus_fig02.jpg",
+      "filename": "claus-10-rules_fig02.jpeg",
       "caption": "Common failure modes addressed by the Golden Rules",
       "description": "Each rule prevents a specific complication pathway",
+      "annotations": []
+    },
+    {
+      "id": "claus_fig03",
+      "filename": "claus-10-rules_fig03.jpeg",
+      "caption": "Rule 1-2: Initial orientation and peritoneal entry",
+      "description": "Anatomic landmarks for IEV identification and safe peritoneal incision",
+      "annotations": []
+    },
+    {
+      "id": "claus_fig04",
+      "filename": "claus-10-rules_fig04.jpeg",
+      "caption": "Rule 3-4: Danger zone avoidance and parietalization",
+      "description": "Boundaries of the Triangle of Doom and Triangle of Pain with parietalization landmarks",
+      "annotations": []
+    },
+    {
+      "id": "claus_fig05",
+      "filename": "claus-10-rules_fig05.jpeg",
+      "caption": "Rule 5-6: Critical View and mesh coverage",
+      "description": "CV-MPO requirements and adequate mesh overlap specifications",
+      "annotations": []
+    },
+    {
+      "id": "claus_fig06",
+      "filename": "claus-10-rules_fig06.jpeg",
+      "caption": "Rule 7-8: Safe fixation zones and peritoneal closure",
+      "description": "Zone 2 fixation landmarks and peritoneal closure technique",
+      "annotations": []
+    },
+    {
+      "id": "claus_fig07",
+      "filename": "claus-10-rules_fig07.jpeg",
+      "caption": "Rule 9-10: Documentation and conversion criteria",
+      "description": "Required photographic documentation points and conversion decision landmarks",
+      "annotations": []
+    },
+    {
+      "id": "claus_fig08",
+      "filename": "claus-10-rules_fig08.jpeg",
+      "caption": "Anatomic basis for mesh fixation zones",
+      "description": "Zone 2 anatomy showing safe fixation points relative to Cooper's ligament",
+      "annotations": []
+    },
+    {
+      "id": "claus_fig09",
+      "filename": "claus-10-rules_fig09.jpeg",
+      "caption": "Complete rule-anatomy mapping",
+      "description": "All 10 rules mapped to their corresponding anatomic structures",
+      "annotations": []
+    },
+    {
+      "id": "claus_fig10",
+      "filename": "claus-10-rules_fig10.jpeg",
+      "caption": "Complication prevention framework",
+      "description": "Relationship between rule violations and specific complication pathways",
       "annotations": []
     }
   ],

@@ -1,29 +1,113 @@
 {
   "slug": "yang",
   "summary": {
-    "title": "Paper in 3 Minutes",
-    "keyPoints": [
-      "The posterior inguinal region consists of multiple fascial layers that define safe dissection planes",
-      "The transversalis fascia and its subdivisions guide peritoneal dissection",
-      "Understanding fascial attachments prevents inadvertent entry into dangerous spaces",
-      "The preperitoneal space has distinct sub-compartments with different tissue characteristics",
-      "Correct plane identification reduces bleeding and improves mesh position"
-    ],
-    "clinicalPearl": "Stay in the areolar tissue plane - if you encounter resistance or bleeding, you are likely in the wrong layer."
+    "title": "Paper in 5 Minutes",
+    "sections": [
+      {
+        "heading": "WHY THIS PAPER EXISTS",
+        "content": "Most technical failures in laparoscopic inguinal hernia repair stem from incorrect plane selection. This paper focuses on fascial anatomy and preperitoneal spaces that determine whether dissection is smooth or hazardous."
+      },
+      {
+        "heading": "CORE ANATOMIC CONCEPTS",
+        "content": "The paper emphasizes Retzius and Bogros as functional dissection planes defined by fascial relationships. Correct plane selection produces effortless areolar dissection; incorrect planes produce bleeding and resistance."
+      },
+      {
+        "heading": "INTRAOPERATIVE APPLICATION",
+        "content": "Commit early to the correct plane. Tissue behavior is the guide. Smooth separation indicates success; resistance indicates error. Parietalization is presented as a mechanical consequence of correct plane development."
+      },
+      {
+        "heading": "COMMON FAILURE MODES",
+        "content": "Superficial dissection causes bleeding and poor visualization. Deep dissection exposes structures prematurely. Incomplete parietalization predisposes to mesh displacement."
+      },
+      {
+        "heading": "HOW TO USE THIS MODULE",
+        "content": "Focus on cause-and-effect relationships. Understand why dissection works when it works."
+      }
+    ]
   },
   "figures": [
     {
       "id": "yang_fig01",
-      "filename": "yang_fig01.jpg",
+      "filename": "yang-planes_fig01.jpeg",
       "caption": "Fascial layers of the posterior inguinal region",
       "description": "Cross-sectional view showing the relationship between peritoneum, transversalis fascia, and preperitoneal fat",
       "annotations": []
     },
     {
       "id": "yang_fig02",
-      "filename": "yang_fig02.jpg",
+      "filename": "yang-planes_fig02.jpeg",
       "caption": "Safe dissection planes for rTAPP repair",
       "description": "The areolar tissue plane between the transversalis fascia and peritoneum provides bloodless dissection",
+      "annotations": []
+    },
+    {
+      "id": "yang_fig03",
+      "filename": "yang-planes_fig03.jpeg",
+      "caption": "Retzius space anatomy",
+      "description": "The retropubic space and its boundaries relevant to medial dissection",
+      "annotations": []
+    },
+    {
+      "id": "yang_fig04",
+      "filename": "yang-planes_fig04.jpeg",
+      "caption": "Bogros space anatomy",
+      "description": "The lateral preperitoneal space and its relationship to inguinal structures",
+      "annotations": []
+    },
+    {
+      "id": "yang_fig05",
+      "filename": "yang-planes_fig05.jpeg",
+      "caption": "Transversalis fascia subdivisions",
+      "description": "Detailed view of the fascial layers encountered during preperitoneal dissection",
+      "annotations": []
+    },
+    {
+      "id": "yang_fig06",
+      "filename": "yang-planes_fig06.jpeg",
+      "caption": "Correct vs incorrect dissection planes",
+      "description": "Comparison of tissue behavior in correct areolar plane versus wrong fascial plane",
+      "annotations": []
+    },
+    {
+      "id": "yang_fig07",
+      "filename": "yang-planes_fig07.jpeg",
+      "caption": "Preperitoneal fat and areolar tissue layer",
+      "description": "The target dissection plane characterized by wispy areolar tissue",
+      "annotations": []
+    },
+    {
+      "id": "yang_fig08",
+      "filename": "yang-planes_fig08.jpeg",
+      "caption": "Parietalization of the cord structures",
+      "description": "Mechanical separation of cord structures from peritoneum following correct plane development",
+      "annotations": []
+    },
+    {
+      "id": "yang_fig09",
+      "filename": "yang-planes_fig09.jpeg",
+      "caption": "Cooper's ligament exposure",
+      "description": "Adequate medial dissection revealing Cooper's ligament for mesh fixation",
+      "annotations": []
+    },
+    {
+      "id": "yang_fig10",
+      "filename": "yang-planes_fig10.jpeg",
+      "caption": "Mesh placement in the preperitoneal space",
+      "description": "Proper mesh position achieved through correct plane development",
+      "annotations": []
+    },
+    {
+      "id": "yang_fig11",
+      "filename": "yang-planes_fig11.jpeg",
+      "caption": "Peritoneal closure technique",
+      "description": "Re-approximation of the peritoneal flap over the mesh",
+      "annotations": []
+    },
+    {
+      "id": "yang_fig12",
+      "filename": "yang-planes_fig12.jpeg",
+      "caption": "Complete repair overview",
+      "description": "Final view showing all layers in anatomic position after repair",
       "annotations": []
     }
   ],

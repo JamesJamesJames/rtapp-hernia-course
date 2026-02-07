@@ -143,12 +143,12 @@ export default function HomePage() {
                         <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4">
                           <div className="flex-1">
                             {/* Title */}
-                            <h3 className="text-lg font-semibold text-slate-900 mb-1">
-                              {paper.shortTitle}
+                            <h3 className="text-base font-semibold text-slate-900 mb-1 leading-snug">
+                              {paper.fullTitle}
                             </h3>
                             <p className="text-sm text-slate-500 mb-3">
                               {paper.authors.slice(0, 2).join(', ')}{' '}
-                              {paper.authors.length > 2 && 'et al.'} ({paper.year})
+                              {paper.authors.length > 2 && 'et al.'} &middot; {paper.journal} ({paper.year})
                             </p>
 
                             {/* Best for */}
